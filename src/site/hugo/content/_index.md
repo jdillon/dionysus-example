@@ -8,6 +8,14 @@ draft: false
 
 Howdy folks!
 
+## Related
+
+* [dionysus-example](https://github.com/jdillon/dionysus-example)
+* [hugo-dionysus-theme](https://github.com/jdillon/hugo-dionysus-theme)
+{{<comment>}}
+* [dionysus-maven-plugin](https://github.com/jdillon/dionysus-maven-plugin)
+{{</comment>}}
+
 ## Taxonomies
 
 * [Tags](tags/)

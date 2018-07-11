@@ -5,6 +5,10 @@ glyph: fas fa-info-circle
 
 date: 2018-07-06T13:44:46-07:00
 draft: false
+
+menu:
+  bottomnav:
+    identifier: About
 ---
 
 Vestibulum vel sollicitudin diam. Nulla hendrerit sapien mauris, in consequat turpis ornare vel.
