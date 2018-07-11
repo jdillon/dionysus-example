@@ -5,7 +5,7 @@
 // FIXME: ATM only supports github SSH repository urls
 // TODO: allow configuration to be passed in from pom
 
-boolean dryRun = properties.getProperty('dryRun', 'false') as boolean
+boolean dryRun = properties.getProperty('dryRun', 'false').toBoolean()
 log.info "Dry run: $dryRun"
 
 def siteUrl = project?.distributionManagement?.site?.url
