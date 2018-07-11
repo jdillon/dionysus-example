@@ -3,6 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
 
   <body>
+    <breadcrumbs>
+      <item name="Maven Plugin" href="./index.html"/>
+    </breadcrumbs>
+
+    <menu name="Parent" ref="parent"/>
     <menu name="Reports" ref="reports"/>
   </body>
 
