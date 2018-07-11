@@ -4,6 +4,7 @@ Example project using Hugo Dionysus Theme for building project sites.
 
 ## Requirements
 
+* [NodeJS](https://nodejs.org/en/download/); version 8+
 * [Hugo](https://gohugo.io/getting-started/installing/)
 * [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme) requirements
 
