@@ -22,8 +22,21 @@ Start Hugo (and theme watcher):
 
 and then browse:
 
-* http://localhost:1313/
+* http://localhost:1313/dionysus-example/
 
 # TODO
 
 * Configure project with git submodule; atm using symlink for faster turnaround 
+
+## Setup
+
+Prepare `gh-pages` branch:
+
+    git@github.com:jdillon/dionysus-example.git public
+    cd public
+    git co --orphan gh-pages
+    rm -rf * .gitignore
+    touch index.html
+    git add index.html
+    git ci -a -m "initial"
+    git push origin gh-pages
