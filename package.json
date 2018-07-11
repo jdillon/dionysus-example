@@ -6,12 +6,12 @@
   "version": "0.0.1",
   "repository": "",
   "scripts": {
-    "theme-build": "brunch build themes/project-site",
-    "theme-watch": "brunch watch themes/project-site",
-    "theme-wait": "wait-on themes/project-site/static/theme.js themes/project-site/static/theme.css",
+    "theme-build": "brunch build themes/dionysus",
+    "theme-watch": "brunch watch themes/dionysus",
+    "theme-wait": "wait-on themes/dionysus/static/theme.js themes/dionysus/static/theme.css",
     "hugo-server": "yarn theme-wait && hugo server --watch --buildDrafts --disableFastRender",
     "start": "concurrently -k -n brunch,hugo 'yarn theme-watch' 'yarn hugo-server'",
-    "build": "brunch build --production themes/project-site && hugo"
+    "build": "brunch build --production themes/dionysus && hugo"
   },
   "dependencies": {
     "concurrently": "^3.6.0",

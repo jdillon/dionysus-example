@@ -5,7 +5,7 @@ Example project using Hugo Dionysus Theme for building project sites.
 ## Requirements
 
 * [Hugo](https://gohugo.io/getting-started/installing/)
-* [Project-Site](themes/project-site/README.md) theme requirements
+* [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme) requirements
 
 ## Building
 
@@ -22,3 +22,7 @@ Start Hugo (and theme watcher):
 and then browse:
 
 * http://localhost:1313/
+
+# TODO
+
+* Configure project with git submodule; atm using symlink for faster turnaround 
