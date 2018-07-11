@@ -13,3 +13,12 @@ Howdy folks!
 * [Tags](tags/)
 * [Categories](categories/)
 * [Moods](moods/)
+
+## Maven Plugin
+
+* [Goals](maven/dionysus-example-maven-plugin/plugin-info.html)
+
+## Reference
+
+* [Javadoc](maven/apidocs/index.html)
+* [Source](maven/xref/index.html)

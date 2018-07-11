@@ -28,9 +28,9 @@ def hugoPublicDir = new File(targetDir, 'hugo-public')
 log.info "Hugo public directory: $hugoPublicDir"
 assert hugoPublicDir.exists()
 
-//def stagingDir = new File(targetDir, 'staging')
-//log.info "Staging directory: $stagingDir"
-//assert stagingDir.exists()
+def stagingDir = new File(targetDir, 'staging')
+log.info "Staging directory: $stagingDir"
+assert stagingDir.exists()
 
 def checkoutDir = new File(targetDir, 'publish-checkout')
 log.info "Checkout directory: $checkoutDir"
@@ -65,14 +65,22 @@ ant.exec(executable: 'git', dir: checkoutDir, failonerror: true) {
   arg(value: '*')
 }
 
-log.info "Copying generated content to: $checkoutDir"
+log.info "Copying hugo-generated content to: $checkoutDir"
 ant.copy(todir: checkoutDir) {
   fileset(dir: hugoPublicDir) {
     include(name: '**')
   }
-//  fileset(dir: stagingDir) {
-//    include(name: '**')
-//  }
+}
+
+def mavenDir = new File(checkoutDir, 'maven')
+log.info "Maven directory: $mavenDir"
+ant.mkdir(dir: mavenDir)
+
+log.info "Copying maven-generated content to: $mavenDir"
+ant.copy(todir: mavenDir) {
+  fileset(dir: stagingDir) {
+    include(name: '**')
+  }
 }
 
 log.info 'Adding changed files'
