@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</loc>
+    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</loc>
     <lastmod>2018-07-06T13:44:46-07:00</lastmod>
   </url>
@@ -64,7 +69,13 @@
   </url>
   
   <url>
-    <loc>https://jdillon.github.io/dionysus-example/moods/frustrated/</loc>
+    <loc>https://jdillon.github.io/dionysus-example/categories/fact/</loc>
+    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/tags/god/</loc>
     <lastmod>2018-07-06T13:44:46-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,14 +87,14 @@
   </url>
   
   <url>
-    <loc>https://jdillon.github.io/dionysus-example/categories/silly/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
+    <loc>https://jdillon.github.io/dionysus-example/moods/informative/</loc>
+    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jdillon.github.io/dionysus-example/tags/xenu/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
+    <loc>https://jdillon.github.io/dionysus-example/categories/silly/</loc>
+    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
