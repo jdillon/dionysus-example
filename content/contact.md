@@ -7,6 +7,6 @@ date: 2018-07-06T13:44:46-07:00
 draft: false
 ---
 
-{{<img src="/images/donald-trump-1.jpg" class="float-right pl-3" caption="Yup thats the sun">}}
+{{<img src="/images/cute-kawaii.jpg" class="float-right pl-3">}}
 
-Send us email or just stare at the sun.
+Send us <a href="mailto:jdillon@users.noreply.github.com"><i class="far fa-envelope"></i> E-Mail</a> if you want to say hello.
