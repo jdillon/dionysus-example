@@ -185,7 +185,7 @@
           <artifactId>license-maven-plugin</artifactId>
           <configuration>
             <excludes combine.children="append">
-              <exclude>gh-pages/**</exclude>
+              <exclude>src/site/hugo/**</exclude>
               <exclude>src/test/resources/**</exclude>
             </excludes>
           </configuration>

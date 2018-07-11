@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
+
+  <!--<skin>-->
+    <!--<groupId>org.apache.maven.skins</groupId>-->
+    <!--<artifactId>maven-fluido-skin</artifactId>-->
+    <!--<version>1.7</version>-->
+  <!--</skin>-->
+
+  <!--<publishDate position="right"/>-->
+  <!--<version position="right"/>-->
+
+  <!--<custom>-->
+    <!--<fluidoSkin>-->
+      <!--<navBarStyle>navbar-inverse</navBarStyle>-->
+      <!--<topBarEnabled>true</topBarEnabled>-->
+      <!--<topBarIcon>-->
+        <!--<name>project</name>-->
+        <!--<src>https://jdillon.github.io/dionysus-example/images/sonatype-dark-32x32.png</src>-->
+        <!--<href>https://jdillon.github.io/dionysus-example/</href>-->
+      <!--</topBarIcon>-->
+      <!--<sideBarEnabled>false</sideBarEnabled>-->
+      <!--<gitHub>-->
+        <!--<projectId>jdillon/dionysus-example</projectId>-->
+        <!--<ribbonOrientation>right</ribbonOrientation>-->
+        <!--<ribbonColor>green</ribbonColor>-->
+      <!--</gitHub>-->
+    <!--</fluidoSkin>-->
+  <!--</custom>-->
+
+  <body>
+    <!--<breadcrumbs>-->
+      <!--<item name="Home" href="./index.html"/>-->
+    <!--</breadcrumbs>-->
+
+    <!--<menu name="Overview">-->
+      <!--<item name="About" href="index.html"/>-->
+      <!--<item name="License" href="license.html"/>-->
+    <!--</menu>-->
+
+    <!--<menu name="Development">-->
+      <!--<item name="Source Repository" href="source-repository.html"/>-->
+      <!--<item name="Maven Dependencies" href="dependencies.html"/>-->
+      <!--<item name="Team" href="team-list.html"/>-->
+      <!--<item name="Findbugs Report" href="findbugs.html"/>-->
+      <!--<item name="PMD Report" href="pmd.html"/>-->
+      <!--<item name="Surefire Report" href="surefire-report.html"/>-->
+    <!--</menu>-->
+
+    <!--<menu name="Reference">-->
+      <!--<item name="API" href="apidocs/index.html"/>-->
+      <!--<item name="Source" href="xref/index.html"/>-->
+    <!--</menu>-->
+
+    <menu name="Modules" ref="modules"/>
+
+    <menu name="Reports" ref="reports"/>
+
+    <footer>
+      Copyright &copy; ${project.inceptionYear} the original author or authors. All rights reserved.
+    </footer>
+  </body>
+</project>
