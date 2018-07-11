@@ -26,7 +26,8 @@
 
   <body>
     <breadcrumbs>
-      <item name="Home" href="./index.html"/>
+      <item name="Home" href="../index.html"/>
+      <item name="Maven" href="./index.html"/>
     </breadcrumbs>
 
     <menu name="Modules" ref="modules"/>
