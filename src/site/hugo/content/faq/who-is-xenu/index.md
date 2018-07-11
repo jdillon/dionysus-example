@@ -15,8 +15,6 @@ tags:
   - god
 categories:
   - fact
-moods:
-  - informative
 ---
 
 {{<img src="xenu.jpg" class="float-right pl-3">}}

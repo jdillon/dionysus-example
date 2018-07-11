@@ -13,7 +13,6 @@ params:
 taxonomies:
   tag: tags
   category: categories
-  mood: moods
 
 # Blackfriday options; see https://gohugo.io/content-management/formats/
 

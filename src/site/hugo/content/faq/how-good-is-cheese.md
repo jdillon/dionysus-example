@@ -15,8 +15,6 @@ tags:
   - cheese
 categories:
   - silly
-moods:
-  - happy
 ---
 
 Quiet simply ... **pretty good**!

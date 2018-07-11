@@ -20,7 +20,6 @@ Howdy folks!
 
 * [Tags](tags/)
 * [Categories](categories/)
-* [Moods](moods/)
 
 ## Maven Plugin
 
