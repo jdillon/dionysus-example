@@ -22,6 +22,3 @@ pygmentsCodeFences: true
 
 # see https://xyproto.github.io/splash/docs/all.html
 pygmentsStyle: manni
-
-# see https://gohugo.io/content-management/comments/
-#disqusShortname: jdillon-disqus-sandbox
