@@ -12,11 +12,11 @@ menu:
     parent: FAQ
 
 tags:
-  - xenu
+  - god
 categories:
-  - silly
+  - fact
 moods:
-  - frustrated
+  - informative
 ---
 
 {{<img src="xenu.jpg" class="float-right pl-3">}}
