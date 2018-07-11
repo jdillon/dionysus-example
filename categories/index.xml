@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Dionysus Theme Example</title>
+    <link>https://jdillon.github.io/dionysus-example/categories/</link>
+    <description>Recent content in Categories on Hugo Dionysus Theme Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jul 2018 13:44:46 -0700</lastBuildDate>
+    
+	<atom:link href="https://jdillon.github.io/dionysus-example/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Silly</title>
+      <link>https://jdillon.github.io/dionysus-example/categories/silly/</link>
+      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/categories/silly/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

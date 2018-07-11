@@ -2,12 +2,11 @@
 <html id="site-root" lang="en-us">
   
 <head>
-	<meta name="generator" content="Hugo 0.42.2" />
   <meta charset="UTF-8"/>
   <meta name="author" content="Sonatype, Inc."/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Welcome &ndash; Hugo Dionysus Theme Example</title>
+  <title>Syntax &ndash; Hugo Dionysus Theme Example</title>
 
   <link rel="shortcut icon" href="/dionysus-example/favicon.ico">
   <link rel="icon" type="image/x-icon" href="/dionysus-example/favicon.ico"/>
@@ -40,7 +39,7 @@
             </li>
           
             <li class="nav-item">
-              <a class="nav-link" href="/dionysus-example/syntax/" title="Syntax">Syntax</a>
+              <a class="nav-link active" href="/dionysus-example/syntax/" title="Syntax">Syntax</a>
             </li>
           
             <li class="nav-item">
@@ -80,80 +79,155 @@
 </header>
       <main id="site-content">
         
-
-<div class="jumbotron">
-  <h1 class="display-4 welcome-brand">
-    <img src="/dionysus-example/images/sonatype-48x48.png" width="48" height="48" alt="">
-    Welcome
-  </h1>
-  <p class="lead text-muted">
-    Welcome to the farty!
-  </p>
-  <p class="text-muted">
-    Lots of farting around going on.
-  </p>
+<div id="page-description">
+  <h1 class="title"><i class="fas fa-vial"></i> Syntax</h1>
+  
+    <p class="subtitle">Supported markdown syntax</p>
+  
 </div>
 
-<div class="homepage-content">
-  
 
-<p>Howdy folks!</p>
 
-<h2 id="taxonomies">Taxonomies</h2>
+<h1 id="normal">Normal</h1>
+
+<p>Foo was here.</p>
+
+<h1 id="emphasis">Emphasis</h1>
+
+<p><em>italic</em>
+<em>italic</em></p>
+
+<h1 id="strong">Strong</h1>
+
+<p><strong>bold</strong>
+<strong>foo</strong></p>
+
+<h1 id="other">Other</h1>
+
+<p><del>strikethrough</del></p>
+
+<p>&ldquo;Hugo&rdquo;</p>
+
+<h1 id="lists">Lists</h1>
+
+<h2 id="unordered">Unordered</h2>
 
 <ul>
-<li><a href="tags/">Tags</a></li>
-<li><a href="categories/">Categories</a></li>
-<li><a href="moods/">Moods</a></li>
+<li>a</li>
+<li>b</li>
+<li>c</li>
 </ul>
 
+<h2 id="unordered-variant">Unordered (variant)</h2>
+
+<ul>
+<li>e</li>
+<li>f</li>
+<li>g</li>
+</ul>
+
+<h2 id="ordered">Ordered</h2>
+
+<ol>
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ol>
+
+<h1 id="h-lines">H-lines</h1>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h1 id="refs">Refs</h1>
+
+<p><a href="1" title="Blah blah blah
+">Google</a></p>
+
+<p>See footnote.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<h1 id="def-lists">Def Lists</h1>
+
+<dl>
+<dt>Cat</dt>
+<dd>Fluffy animal everyone likes</dd>
+<dt>Internet</dt>
+<dd>Vector of transmission for pictures of cats</dd>
+</dl>
+
+<h1 id="quote">Quote</h1>
+
+<blockquote>
+<p>Foo was here.</p>
+</blockquote>
+
+<h1 id="code">Code</h1>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#309;font-weight:bold">&lt;settings&gt;</span> 
+  <span style="color:#309;font-weight:bold">&lt;here</span> <span style="color:#309">foo=</span><span style="color:#c30">&#34;bar&#34;</span><span style="color:#309;font-weight:bold">/&gt;</span>
+<span style="color:#309;font-weight:bold">&lt;/settings&gt;</span></code></pre></div>
+<p><code>
+&lt;settings&gt; 
+  &lt;here foo=&quot;bar&quot;/&gt;
+&lt;/settings&gt;
+</code></p>
+
+<pre><code>&lt;settings&gt; 
+  &lt;here foo=&quot;bar&quot;/&gt;
+&lt;/settings&gt;
+</code></pre>
+
+<div class="highlight"><div style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">    <span style="color:#309;font-weight:bold">&lt;settings&gt;</span> 
+      <span style="color:#309;font-weight:bold">&lt;here</span> <span style="color:#309">foo=</span><span style="color:#c30">&#34;bar&#34;</span><span style="color:#309;font-weight:bold">/&gt;</span>
+    <span style="color:#309;font-weight:bold">&lt;/settings&gt;</span></code></pre></td></tr></table>
+</div>
 </div>
 
-<div>
-  <h2>Menus</h2>
-  <ul>
-  
-  
-  
-    <li class="">
-      <a href="#">
-      
-        <span>FAQ</span>
-      </a>
-    </li>
-    <ul class="sub-menu">
-    
-      <li class="">
-        <a href="/dionysus-example/faq/how-good-is-cheese/">How Good Is Cheese</a>
-      </li>
-    
-      <li class="">
-        <a href="/dionysus-example/faq/who-is-xenu/">Who is Xenu</a>
-      </li>
-    
-    </ul>
-  
-  
-  
-    <li>
-      <a href="/dionysus-example/syntax/">
-      
-        <span>Syntax</span>
-      </a>
-    </li>
-  
-  
-  
-    <li>
-      <a href="/dionysus-example/tags/">
-      
-        <span>Tags</span>
-      </a>
-    </li>
-  
-  
-  </ul>
+<h1 id="tables">Tables</h1>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="emoji">Emoji</h1>
+
+<p>😄</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Blah blah blah
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
 </div>
+
 
 
       </main>
