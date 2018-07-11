@@ -2,6 +2,8 @@
 
 Example project using Hugo Dionysus Theme for building project sites.
 
+**FIXME** Adjust for Maven integration
+
 ## Requirements
 
 * [NodeJS](https://nodejs.org/en/download/); version 8+

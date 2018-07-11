@@ -4,6 +4,9 @@ languageCode: en-us
 title: Hugo Dionysus Theme Example
 theme: dionysus
 
+# Publish content to maven-standard-ish location for generated content
+publishdir: ../../../target/hugo-public
+
 params:
   inceptionYear: 2018
 
