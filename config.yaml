@@ -1,0 +1,27 @@
+---
+baseURL: https://jdillon.github.io/dionysus-example/
+languageCode: en-us
+title: Hugo Dionysus Theme Example
+theme: dionysus
+
+params:
+  inceptionYear: 2018
+
+taxonomies:
+  tag: tags
+  category: categories
+  mood: moods
+
+# Blackfriday options; see https://gohugo.io/content-management/formats/
+
+# see https://www.webpagefx.com/tools/emoji-cheat-sheet/
+enableEmoji: true
+
+# Highlight options; see https://gohugo.io/content-management/syntax-highlighting/
+pygmentsCodeFences: true
+
+# see https://xyproto.github.io/splash/docs/all.html
+pygmentsStyle: manni
+
+# see https://gohugo.io/content-management/comments/
+#disqusShortname: jdillon-disqus-sandbox
