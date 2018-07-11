@@ -217,7 +217,7 @@
               <configuration>
                 <source>${project.basedir}/src/site/publish.groovy</source>
                 <properties>
-                  <dryRun>true</dryRun>
+                  <!--<dryRun>true</dryRun>-->
                   <!--<gitBranch>gh-pages</gitBranch>-->
                 </properties>
               </configuration>

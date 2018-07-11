@@ -57,22 +57,16 @@ snippet {
   }
 }
 
-def mavenDir = new File(checkoutDir, 'maven')
-log.info "Maven directory: $mavenDir"
-
-if (mavenDir.exists()) {
-  log.info "Removing existing content from $mavenDir"
-  ant.exec(executable: 'git', dir: checkoutDir, failonerror: true) {
-    arg(value: 'rm')
-    arg(value: '-r')
-    arg(value: '--quiet')
-    arg(value: mavenDir.name)
-  }
+log.info "Removing existing content from $checkoutDir"
+ant.exec(executable: 'git', dir: checkoutDir, failonerror: true) {
+  arg(value: 'rm')
+  arg(value: '-r')
+  arg(value: '--quiet')
+  arg(value: '*')
 }
-ant.mkdir(dir: mavenDir)
 
-log.info "Copying generated content to: $mavenDir"
-ant.copy(todir: mavenDir) {
+log.info "Copying generated content to: $checkoutDir"
+ant.copy(todir: checkoutDir) {
   fileset(dir: hugoPublicDir) {
     include(name: '**')
   }
@@ -84,7 +78,7 @@ ant.copy(todir: mavenDir) {
 log.info 'Adding changed files'
 ant.exec(executable: 'git', dir: checkoutDir, failonerror: true) {
   arg(value: 'add')
-  arg(value: mavenDir.name)
+  arg(value: '.')
 }
 
 log.info 'Checking status'
@@ -102,7 +96,7 @@ if (status) {
     ant.exec(executable: 'git', dir: checkoutDir, failonerror: true) {
       arg(value: 'commit')
       arg(value: '-m')
-      arg(value: 'Maven-generated site content refresh')
+      arg(value: 'Site content refresh')
     }
   }
 
