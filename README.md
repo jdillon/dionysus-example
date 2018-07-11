@@ -19,8 +19,8 @@ Example project using Hugo Dionysus Theme for building project sites.
 
 Prepare `gh-pages` branch:
 
-    git@github.com:jdillon/dionysus-example.git public
-    cd public
+    git@github.com:jdillon/dionysus-example.git gh-pages
+    cd gh-pages
     git co --orphan gh-pages
     rm -rf * .gitignore
     touch index.html

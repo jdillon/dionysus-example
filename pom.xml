@@ -370,7 +370,7 @@
       <id>site-stage</id>
 
       <build>
-        <defaultGoal>clean install site:site site:stage</defaultGoal>
+        <defaultGoal>site:site site:stage</defaultGoal>
 
         <pluginManagement>
           <plugins>
@@ -380,6 +380,29 @@
               <configuration>
                 <!-- site generation causes problems with project dependency resolution? -->
                 <skip>true</skip>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+
+    <profile>
+      <id>site-build</id>
+
+      <build>
+        <defaultGoal>groovy:execute</defaultGoal>
+
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.codehaus.gmaven</groupId>
+              <artifactId>groovy-maven-plugin</artifactId>
+              <configuration>
+                <source>${project.basedir}/src/site/build.groovy</source>
+                <properties>
+                  <!--<rebuildTheme>true</rebuildTheme>-->
+                </properties>
               </configuration>
             </plugin>
           </plugins>
