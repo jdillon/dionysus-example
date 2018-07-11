@@ -19,7 +19,7 @@ moods:
   - happy
 ---
 
-Well, quiet simply ... **pretty fucking good**!
+Quiet simply ... **pretty good**!
 
 {{< youtube 6Akkg65Wizw >}}
  
