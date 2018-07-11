@@ -2,35 +2,20 @@
 
 Example project using Hugo Dionysus Theme for building project sites.
 
-**FIXME** Adjust for Maven integration
-
 ## Requirements
 
-* [NodeJS](https://nodejs.org/en/download/); version 8+
+* Apache Maven 3.3+ (prefer to use included `mvnw`)
+* JDK 7+ (10 is **NOT** supported)
 * [Hugo](https://gohugo.io/getting-started/installing/)
-* [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme) requirements
+* [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme)
 
-## Building
+### Build
 
-Prepare dependencies:
+    ./mvnw clean install
 
-    yarn install
+## Site 
 
-## Running
-
-Start Hugo (and theme watcher):
-
-    yarn start
-
-and then browse:
-
-* http://localhost:1313/dionysus-example/
-
-# TODO
-
-* Configure project with git submodule; atm using symlink for faster turnaround 
-
-## Setup
+### Setup
 
 Prepare `gh-pages` branch:
 
@@ -42,3 +27,21 @@ Prepare `gh-pages` branch:
     git add index.html
     git ci -a -m "initial"
     git push origin gh-pages
+
+### Staging
+
+    ./mvnw -Psite-stage && open target/staging/maven/index.html 
+
+### Publishing
+
+See [publish.groovy](src/site/publish.groovy) for configuration.
+
+    ./mvnw -Psite-stage && ./mvnw -Psite-publish -N
+
+or if already staged:
+
+    ./mvnw -Psite-publish -N
+
+# TODO
+
+* Configure project with git submodule; atm using symlink for faster turnaround 
