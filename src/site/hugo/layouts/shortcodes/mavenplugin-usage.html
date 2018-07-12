@@ -1,0 +1,33 @@
+{{ $context := . }}
+{{ $plugin := index (index .Site.Data (.Get "data")) "plugin" }}
+{{ $goalName := .Get "goal" }}
+{{ with $plugin }}
+
+{{ $xml := printf `<project>
+  <build>
+    <!-- plugin management -->
+    <pluginMangement>
+      <plugins>
+        <plugin>
+          <groupId>%s</groupId>
+          <artifactId>%s</artifactId>
+          <version>%s</version>
+        </plugin>
+      </plugins>
+    </pluginMangement>
+
+    <!-- plugin execution -->
+    <plugins>
+      <plugin>
+        <groupId>%s</groupId>
+        <artifactId>%s</artifactId>
+        <version>%s</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+` $plugin.groupId $plugin.artifactId $plugin.version $plugin.groupId $plugin.artifactId $plugin.version}}
+
+{{ highlight $xml "xml" "" }}
+
+{{ end }}

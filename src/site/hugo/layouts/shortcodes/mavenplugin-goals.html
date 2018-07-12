@@ -1,0 +1,24 @@
+{{ $context := . }}
+{{ $plugin := index (index .Site.Data (.Get "data")) "plugin" }}
+{{ $pagePrefix := .Get "page-prefix" | default $plugin.goalPrefix }}
+{{ with $plugin }}
+
+<table class="table table-striped">
+  <caption>{{ len .mojos.mojo }} goals</caption>
+  <thead>
+    <tr>
+      <th scope="col">Goal</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .mojos.mojo }}
+    <tr>
+      <td><a href="{{ printf `../%s-%s` $pagePrefix .goal }}">{{ $plugin.goalPrefix }}:{{ .goal }}</a></td>
+      <td>{{ safeHTML .description }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+{{ end }}
