@@ -470,7 +470,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
-.row {
+.row, .mavenplugin-goal .goal-metadata, .mavenplugin-goal .parameter-metadata {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -485,7 +485,7 @@ pre {
     padding-left: 0; }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, #site-footer .section, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, #site-footer .section-brand, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-auto, .col-sm-1, .col-sm-2, .mavenplugin-goal .goal-metadata .name, .mavenplugin-goal .parameter-metadata .name, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .mavenplugin-goal .goal-metadata .value, .mavenplugin-goal .parameter-metadata .value, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -644,7 +644,7 @@ pre {
   .col-sm-1 {
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .col-sm-2 {
+  .col-sm-2, .mavenplugin-goal .goal-metadata .name, .mavenplugin-goal .parameter-metadata .name {
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
   .col-sm-3 {
@@ -665,7 +665,7 @@ pre {
   .col-sm-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .col-sm-9 {
+  .col-sm-9, .mavenplugin-goal .goal-metadata .value, .mavenplugin-goal .parameter-metadata .value {
     flex: 0 0 75%;
     max-width: 75%; }
   .col-sm-10 {
@@ -1032,22 +1032,22 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
-.table {
+.table, .mavenplugin-goal .parameters-table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
   background-color: transparent; }
-  .table th,
-  .table td {
+  .table th, .mavenplugin-goal .parameters-table th,
+  .table td, .mavenplugin-goal .parameters-table td {
     padding: 0.75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6; }
-  .table thead th {
+  .table thead th, .mavenplugin-goal .parameters-table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
-  .table tbody + tbody {
+  .table tbody + tbody, .mavenplugin-goal .parameters-table tbody + tbody {
     border-top: 2px solid #dee2e6; }
-  .table .table {
+  .table .table, .mavenplugin-goal .parameters-table .table, .table .mavenplugin-goal .parameters-table, .mavenplugin-goal .table .parameters-table, .mavenplugin-goal .parameters-table .parameters-table {
     background-color: #fff; }
 
 .table-sm th, .page-metadata th, .page-list th,
@@ -1069,7 +1069,7 @@ pre {
 .table-borderless tbody + tbody {
   border: 0; }
 
-.table-striped tbody tr:nth-of-type(odd), .page-metadata tbody tr:nth-of-type(odd) {
+.table-striped tbody tr:nth-of-type(odd), .page-metadata tbody tr:nth-of-type(odd), .mavenplugin-goals .table tbody tr:nth-of-type(odd), .mavenplugin-goal .parameters-table tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05); }
 
 .table-hover tbody tr:hover {
@@ -1174,12 +1174,12 @@ pre {
   .table-hover .table-active:hover > th {
     background-color: rgba(0, 0, 0, 0.075); }
 
-.table .thead-dark th {
+.table .thead-dark th, .mavenplugin-goal .parameters-table .thead-dark th {
   color: #fff;
   background-color: #212529;
   border-color: #32383e; }
 
-.table .thead-light th {
+.table .thead-light th, .mavenplugin-goal .parameters-table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
   border-color: #dee2e6; }
@@ -1193,7 +1193,7 @@ pre {
     border-color: #32383e; }
   .table-dark.table-bordered {
     border: 0; }
-  .table-dark.table-striped tbody tr:nth-of-type(odd), .table-dark.page-metadata tbody tr:nth-of-type(odd) {
+  .table-dark.table-striped tbody tr:nth-of-type(odd), .table-dark.page-metadata tbody tr:nth-of-type(odd), .mavenplugin-goals .table-dark.table tbody tr:nth-of-type(odd), .mavenplugin-goal .table-dark.parameters-table tbody tr:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.05); }
   .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
@@ -6266,10 +6266,10 @@ a.text-dark:hover, a.text-dark:focus {
     display: none; }
   .badge {
     border: 1px solid #000; }
-  .table {
+  .table, .mavenplugin-goal .parameters-table {
     border-collapse: collapse !important; }
-    .table td,
-    .table th {
+    .table td, .mavenplugin-goal .parameters-table td,
+    .table th, .mavenplugin-goal .parameters-table th {
       background-color: #fff !important; }
   .table-bordered th,
   .table-bordered td {
@@ -6281,7 +6281,7 @@ a.text-dark:hover, a.text-dark:focus {
     .table-dark thead th,
     .table-dark tbody + tbody {
       border-color: #dee2e6; }
-  .table .thead-dark th {
+  .table .thead-dark th, .mavenplugin-goal .parameters-table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
 
@@ -9866,6 +9866,9 @@ readers do not read off random characters that represent icons */
 .overflow-hidden {
   overflow: hidden; }
 
+.mavenplugin-usage .highlight pre {
+  padding: 10px; }
+
 
 /*# sourceMappingURL=theme.css.map*/
-/*f0fb00f7-d9ab-44af-9e39-b918ef7e758f/*
+/*44822eb2-3bf1-4cf8-93a5-266c90fb23bf/*

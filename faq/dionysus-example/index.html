@@ -57,9 +57,9 @@
       <main id="site-content">
         
 <div id="page-description">
-  <h1 class="title"><i class="fas fa-question"></i> dionysus-example</h1>
+  <h1 class="title"><i class="fas fa-puzzle-piece"></i> dionysus-example</h1>
   
-    <p class="subtitle">Maven plugin goals</p>
+    <p class="subtitle">dionysus-example-maven-plugin</p>
   
 </div>
 <table class="page-metadata">
@@ -98,8 +98,6 @@
 
 
 
-<h1 id="maven-plugin">Maven Plugin</h1>
-
 <p>Goals available for this plugin:</p>
 
 
@@ -107,29 +105,31 @@
 
 
 
-<table class="table table-striped">
-  <caption>2 goals</caption>
-  <thead>
-    <tr>
-      <th scope="col">Goal</th>
-      <th scope="col">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    
-    <tr>
-      <td><a href="../dionysus-example-help">dionysus-example:help</a></td>
-      <td>Display help information on dionysus-example-maven-plugin.<br>
+<div class="mavenplugin-goals">
+  <table class="table">
+    <caption>2 goals</caption>
+    <thead>
+      <tr>
+        <th scope="col">Goal</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="goal-name"><a href="../dionysus-example-help"><i class="fas fa-bullseye"></i> dionysus-example:help</a></td>
+        <td class="goal-description">Display help information on dionysus-example-maven-plugin.<br>
 Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.</td>
-    </tr>
-    
-    <tr>
-      <td><a href="../dionysus-example-helper">dionysus-example:helper</a></td>
-      <td>Helper mojo.</td>
-    </tr>
-    
-  </tbody>
-</table>
+      </tr>
+      
+      <tr>
+        <td class="goal-name"><a href="../dionysus-example-helper"><i class="fas fa-bullseye"></i> dionysus-example:helper</a></td>
+        <td class="goal-description">Helper mojo.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
 
 
 
@@ -144,6 +144,7 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
 
 
 
+<div class="mavenplugin-usage">
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#309;font-weight:bold">&lt;project&gt;</span>
   <span style="color:#309;font-weight:bold">&lt;build&gt;</span>
     <span style="color:#09f;font-style:italic">&lt;!-- plugin management --&gt;</span>
@@ -168,6 +169,7 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
   <span style="color:#309;font-weight:bold">&lt;/build&gt;</span>
 <span style="color:#309;font-weight:bold">&lt;/project&gt;</span>
 </code></pre></div>
+</div>
 
 </p>
 

@@ -57,9 +57,9 @@
       <main id="site-content">
         
 <div id="page-description">
-  <h1 class="title"><i class="fas fa-question"></i> dionysus-example:help</h1>
+  <h1 class="title"><i class="fas fa-puzzle-piece"></i> dionysus-example:help</h1>
   
-    <p class="subtitle">specific goal documentation</p>
+    <p class="subtitle">Help goal</p>
   
 </div>
 <table class="page-metadata">
@@ -101,176 +101,210 @@
 
 
 
-<h2>dionysus-example:help</h2>
+<div class="mavenplugin-goal">
+  <h2><i class="fas fa-bullseye"></i> dionysus-example:help</h2>
 
-<dl class="row">
-  <dt class="col-sm-2">Full name</dt>
-  <dd class="col-sm-9 monospace">org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help</dd>
+  
+  <p class="goal-description">
+    Display help information on dionysus-example-maven-plugin.<br>
+Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.
+  </p>
+  
 
-  <dt class="col-sm-2">Description</dt>
-  <dd class="col-sm-9">Display help information on dionysus-example-maven-plugin.<br>
-Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.</dd>
+  <dl class="goal-metadata">
+    <dt class="name">Full name</dt>
+    <dd class="value monospace">org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help</dd>
 
-  <dt class="col-sm-2">Since</dt>
-  <dd class="col-sm-9 monospace"></dd>
-
-  <dt class="col-sm-2">Phase</dt>
-  <dd class="col-sm-9 monospace"></dd>
-
-  <dt class="col-sm-2">Requires Project</dt>
-  <dd class="col-sm-9 monospace">false</dd>
-
-  <dt class="col-sm-2">Requires Online</dt>
-  <dd class="col-sm-9 monospace">false</dd>
-
-  <dt class="col-sm-2">Requires Direct Invocation</dt>
-  <dd class="col-sm-9 monospace">false</dd>
-
-  <dt class="col-sm-2">Thread-safe</dt>
-  <dd class="col-sm-9 monospace">true</dd>
-</dl>
-
-<h3>Parameters</h3>
-
-
-<table class="table table-striped">
-  <caption>4 parameters</caption>
-  <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Type</th>
-      <th scope="col">Since</th>
-      <th scope="col">Description</th>
-    </tr>
-  </thead>
-  <tbody>
     
-    <tr>
-      <td><a href="#detail">detail</a></td>
-      <td class="monospace">boolean</td>
-      <td class="monospace"></td>
-      <td>If <code>true</code>, display all settable properties for each goal.</td>
-    </tr>
+
     
-    <tr>
-      <td><a href="#goal">goal</a></td>
-      <td class="monospace">java.lang.String</td>
-      <td class="monospace"></td>
-      <td>The name of the goal for which to show help. If unspecified, all goals will be displayed.</td>
-    </tr>
-    
-    <tr>
-      <td><a href="#indentSize">indentSize</a></td>
-      <td class="monospace">int</td>
-      <td class="monospace"></td>
-      <td>The number of spaces per indentation level, should be positive.</td>
-    </tr>
-    
-    <tr>
-      <td><a href="#lineLength">lineLength</a></td>
-      <td class="monospace">int</td>
-      <td class="monospace"></td>
-      <td>The maximum length of a display line, should be positive.</td>
-    </tr>
-    
-  </tbody>
-</table>
 
-<h3>Parameter Details</h3>
+    <dt class="name">Requires Project</dt>
+    <dd class="value monospace">false</dd>
 
+    <dt class="name">Requires Online</dt>
+    <dd class="value monospace">false</dd>
 
-<div>
-  <h4><a name="detail">detail</a></h4>
-  <p>If <code>true</code>, display all settable properties for each goal.</p>
-  <dl class="row">
-    <dt class="col-sm-2">Type</dt>
-    <dd class="col-sm-9 monospace">boolean</dd>
+    <dt class="name">Requires Direct Invocation</dt>
+    <dd class="value monospace">false</dd>
 
-    <dt class="col-sm-2">Since</dt>
-    <dd class="col-sm-9 monospace"></dd>
-
-    <dt class="col-sm-2">Required</dt>
-    <dd class="col-sm-9 monospace">false</dd>
-
-    <dt class="col-sm-2">Default Value</dt>
-    <dd class="col-sm-9 monospace">false</dd>
-
-    <dt class="col-sm-2">User Property</dt>
-    <dd class="col-sm-9 monospace">${detail}</dd>
+    <dt class="name">Thread-safe</dt>
+    <dd class="value monospace">true</dd>
   </dl>
-  <hr/>
+
+  <h3>Parameters</h3>
+
+  
+  <table class="parameters-table">
+    <caption>4 parameters</caption>
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Since</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><a href="#detail"><i class="fas fa-splotch"></i> detail</a></td>
+        <td class="monospace">boolean</td>
+        <td class="monospace"><i class="fas fa-ban"></i></td>
+        <td>If <code>true</code>, display all settable properties for each goal.</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#goal"><i class="fas fa-splotch"></i> goal</a></td>
+        <td class="monospace">java.lang.String</td>
+        <td class="monospace"><i class="fas fa-ban"></i></td>
+        <td>The name of the goal for which to show help. If unspecified, all goals will be displayed.</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#indentSize"><i class="fas fa-splotch"></i> indentSize</a></td>
+        <td class="monospace">int</td>
+        <td class="monospace"><i class="fas fa-ban"></i></td>
+        <td>The number of spaces per indentation level, should be positive.</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#lineLength"><i class="fas fa-splotch"></i> lineLength</a></td>
+        <td class="monospace">int</td>
+        <td class="monospace"><i class="fas fa-ban"></i></td>
+        <td>The maximum length of a display line, should be positive.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  
+  
+  <div>
+    <h4><a name="detail"><i class="fas fa-splotch"></i> detail</a></h4>
+
+    
+    <p class="parameter-description">
+      If <code>true</code>, display all settable properties for each goal.
+    </p>
+    
+
+    <dl class="parameter-metadata">
+      <dt class="name">Type</dt>
+      <dd class="value monospace">boolean</dd>
+
+      
+
+      <dt class="name">Required</dt>
+      <dd class="value monospace">false</dd>
+
+      
+      <dt class="name">Default Value</dt>
+      <dd class="value monospace">false</dd>
+      
+
+      
+      <dt class="name">User Property</dt>
+      <dd class="value monospace">${detail}</dd>
+      
+    </dl>
+    <hr/>
+  </div>
+  
+  
+  <div>
+    <h4><a name="goal"><i class="fas fa-splotch"></i> goal</a></h4>
+
+    
+    <p class="parameter-description">
+      The name of the goal for which to show help. If unspecified, all goals will be displayed.
+    </p>
+    
+
+    <dl class="parameter-metadata">
+      <dt class="name">Type</dt>
+      <dd class="value monospace">java.lang.String</dd>
+
+      
+
+      <dt class="name">Required</dt>
+      <dd class="value monospace">false</dd>
+
+      
+
+      
+      <dt class="name">User Property</dt>
+      <dd class="value monospace">${goal}</dd>
+      
+    </dl>
+    <hr/>
+  </div>
+  
+  
+  <div>
+    <h4><a name="indentSize"><i class="fas fa-splotch"></i> indentSize</a></h4>
+
+    
+    <p class="parameter-description">
+      The number of spaces per indentation level, should be positive.
+    </p>
+    
+
+    <dl class="parameter-metadata">
+      <dt class="name">Type</dt>
+      <dd class="value monospace">int</dd>
+
+      
+
+      <dt class="name">Required</dt>
+      <dd class="value monospace">false</dd>
+
+      
+      <dt class="name">Default Value</dt>
+      <dd class="value monospace">2</dd>
+      
+
+      
+      <dt class="name">User Property</dt>
+      <dd class="value monospace">${indentSize}</dd>
+      
+    </dl>
+    <hr/>
+  </div>
+  
+  
+  <div>
+    <h4><a name="lineLength"><i class="fas fa-splotch"></i> lineLength</a></h4>
+
+    
+    <p class="parameter-description">
+      The maximum length of a display line, should be positive.
+    </p>
+    
+
+    <dl class="parameter-metadata">
+      <dt class="name">Type</dt>
+      <dd class="value monospace">int</dd>
+
+      
+
+      <dt class="name">Required</dt>
+      <dd class="value monospace">false</dd>
+
+      
+      <dt class="name">Default Value</dt>
+      <dd class="value monospace">80</dd>
+      
+
+      
+      <dt class="name">User Property</dt>
+      <dd class="value monospace">${lineLength}</dd>
+      
+    </dl>
+    <hr/>
+  </div>
+  
 </div>
-
-
-<div>
-  <h4><a name="goal">goal</a></h4>
-  <p>The name of the goal for which to show help. If unspecified, all goals will be displayed.</p>
-  <dl class="row">
-    <dt class="col-sm-2">Type</dt>
-    <dd class="col-sm-9 monospace">java.lang.String</dd>
-
-    <dt class="col-sm-2">Since</dt>
-    <dd class="col-sm-9 monospace"></dd>
-
-    <dt class="col-sm-2">Required</dt>
-    <dd class="col-sm-9 monospace">false</dd>
-
-    <dt class="col-sm-2">Default Value</dt>
-    <dd class="col-sm-9 monospace"></dd>
-
-    <dt class="col-sm-2">User Property</dt>
-    <dd class="col-sm-9 monospace">${goal}</dd>
-  </dl>
-  <hr/>
-</div>
-
-
-<div>
-  <h4><a name="indentSize">indentSize</a></h4>
-  <p>The number of spaces per indentation level, should be positive.</p>
-  <dl class="row">
-    <dt class="col-sm-2">Type</dt>
-    <dd class="col-sm-9 monospace">int</dd>
-
-    <dt class="col-sm-2">Since</dt>
-    <dd class="col-sm-9 monospace"></dd>
-
-    <dt class="col-sm-2">Required</dt>
-    <dd class="col-sm-9 monospace">false</dd>
-
-    <dt class="col-sm-2">Default Value</dt>
-    <dd class="col-sm-9 monospace">2</dd>
-
-    <dt class="col-sm-2">User Property</dt>
-    <dd class="col-sm-9 monospace">${indentSize}</dd>
-  </dl>
-  <hr/>
-</div>
-
-
-<div>
-  <h4><a name="lineLength">lineLength</a></h4>
-  <p>The maximum length of a display line, should be positive.</p>
-  <dl class="row">
-    <dt class="col-sm-2">Type</dt>
-    <dd class="col-sm-9 monospace">int</dd>
-
-    <dt class="col-sm-2">Since</dt>
-    <dd class="col-sm-9 monospace"></dd>
-
-    <dt class="col-sm-2">Required</dt>
-    <dd class="col-sm-9 monospace">false</dd>
-
-    <dt class="col-sm-2">Default Value</dt>
-    <dd class="col-sm-9 monospace">80</dd>
-
-    <dt class="col-sm-2">User Property</dt>
-    <dd class="col-sm-9 monospace">${lineLength}</dd>
-  </dl>
-  <hr/>
-</div>
-
-
 
 
 

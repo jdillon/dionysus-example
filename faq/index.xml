@@ -27,9 +27,9 @@
       <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</guid>
-      <description>Maven Plugin Goals available for this plugin:
-2 goals   Goal Description     dionysus-example:help Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.   dionysus-example:helper Helper mojo.    Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
+      <description>Goals available for this plugin:
+2 goals   Goal Description      dionysus-example:help Display help information on dionysus-example-maven-plugin.
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.    dionysus-example:helper Helper mojo.     Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
  &amp;lt;project&amp;gt; &amp;lt;build&amp;gt; &amp;lt;!-- plugin management --&amp;gt; &amp;lt;pluginMangement&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.sonatype.dionysus&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;dionysus-example-maven-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/pluginMangement&amp;gt; &amp;lt;!-- plugin execution --&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
     </item>
     
@@ -39,8 +39,8 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</guid>
-      <description>dionysus-example:help Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Description Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Since  Phase  Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description     detail boolean  If true, display all settable properties for each goal.   goal java.lang.String  The name of the goal for which to show help.</description>
+      <description>dionysus-example:help Display help information on dionysus-example-maven-plugin.
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
     </item>
     
     <item>
@@ -49,8 +49,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</guid>
-      <description>dionysus-example:helper Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Description Helper mojo. Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description     anotherThingy java.lang.String ??? Another thingy.   skip boolean ??? Skip execution.    Parameter Details  anotherThingy Another thingy.
-Type java.lang.String Since ??? Required true Default Value foo User Property      skip Skip execution.</description>
+      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo      skip Skip execution.</description>
     </item>
     
     <item>
