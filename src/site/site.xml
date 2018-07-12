@@ -8,21 +8,21 @@
     <version>1-SNAPSHOT</version>
   </skin>
 
-  <publishDate position="right"/>
-  <version position="right"/>
+  <!--<publishDate position="right"/>-->
+  <!--<version position="right"/>-->
 
-  <custom>
-    <fluidoSkin>
-      <navBarStyle>navbar-inverse</navBarStyle>
-      <topBarEnabled>true</topBarEnabled>
-      <topBarIcon>
-        <name>project</name>
-        <src>https://jdillon.github.io/dionysus-example/images/sonatype-dark-32x32.png</src>
-        <href>https://jdillon.github.io/dionysus-example/</href>
-      </topBarIcon>
-      <sideBarEnabled>false</sideBarEnabled>
-    </fluidoSkin>
-  </custom>
+  <!--<custom>-->
+    <!--<dionysus>-->
+      <!--<navBarStyle>navbar-inverse</navBarStyle>-->
+      <!--<topBarEnabled>true</topBarEnabled>-->
+      <!--<topBarIcon>-->
+        <!--<name>project</name>-->
+        <!--<src>https://jdillon.github.io/dionysus-example/images/sonatype-dark-32x32.png</src>-->
+        <!--<href>https://jdillon.github.io/dionysus-example/</href>-->
+      <!--</topBarIcon>-->
+      <!--<sideBarEnabled>false</sideBarEnabled>-->
+    <!--</dionysus>-->
+  <!--</custom>-->
 
   <body>
     <breadcrumbs>
