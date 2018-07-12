@@ -1,7 +1,7 @@
 ---
 title: dionysus-example
 subtitle: Maven plugin goals
-glyph: fas fa-question
+glyph: fas fa-puzzle-piece
 
 date: 2018-07-08T15:04:34-07:00
 draft: false
@@ -16,8 +16,6 @@ categories:
 tags:
   - dionysus-example
 ---
-
-# Maven Plugin
 
 Goals available for this plugin:
 

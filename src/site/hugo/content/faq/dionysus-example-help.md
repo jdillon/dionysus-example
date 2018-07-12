@@ -1,7 +1,7 @@
 ---
 title: "dionysus-example:help"
 subtitle: specific goal documentation
-glyph: fas fa-question
+glyph: fas fa-puzzle-piece
 
 date: 2018-07-08T15:04:34-07:00
 draft: false
