@@ -28,19 +28,13 @@ Prepare `gh-pages` branch:
     git ci -a -m "initial"
     git push origin gh-pages
 
-### Staging
+### Building
 
-    ./mvnw -Psite-stage && open target/staging/maven/index.html 
-
+    ./mvnw dionysus:build -N
+    
 ### Publishing
 
-See [publish.groovy](src/site/publish.groovy) for configuration.
-
-    ./mvnw -Psite-stage && ./mvnw -Psite-publish -N
-
-or if already staged:
-
-    ./mvnw -Psite-publish -N
+    ./mvnw dionysus:publish -N
 
 # TODO
 

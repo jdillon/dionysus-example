@@ -206,6 +206,12 @@
             </excludes>
           </configuration>
         </plugin>
+
+        <plugin>
+          <groupId>org.sonatype.dionysus</groupId>
+          <artifactId>dionysus-maven-plugin</artifactId>
+          <version>1-SNAPSHOT</version>
+        </plugin>
       </plugins>
     </pluginManagement>
 
@@ -371,54 +377,5 @@
       <!--</plugin>-->
     </plugins>
   </reporting>
-
-  <profiles>
-    <profile>
-      <id>site-build</id>
-
-      <build>
-        <defaultGoal>groovy:execute</defaultGoal>
-
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.codehaus.gmaven</groupId>
-              <artifactId>groovy-maven-plugin</artifactId>
-              <configuration>
-                <source>${project.basedir}/src/site/build.groovy</source>
-                <properties>
-                  <!--<rebuildTheme>true</rebuildTheme>-->
-                </properties>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-      </build>
-    </profile>
-
-    <profile>
-      <id>site-publish</id>
-
-      <build>
-        <defaultGoal>groovy:execute</defaultGoal>
-
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.codehaus.gmaven</groupId>
-              <artifactId>groovy-maven-plugin</artifactId>
-              <configuration>
-                <source>${project.basedir}/src/site/publish.groovy</source>
-                <properties>
-                  <!--<dryRun>true</dryRun>-->
-                  <!--<gitBranch>gh-pages</gitBranch>-->
-                </properties>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-      </build>
-    </profile>
-  </profiles>
 
 </project>
