@@ -28,9 +28,9 @@ def hugoPublicDir = new File(targetDir, 'hugo-public')
 log.info "Hugo public directory: $hugoPublicDir"
 assert hugoPublicDir.exists()
 
-def stagingDir = new File(targetDir, 'staging')
-log.info "Staging directory: $stagingDir"
-assert stagingDir.exists()
+def siteDir = new File(targetDir, 'site')
+log.info "Site directory: $siteDir"
+assert siteDir.exists()
 
 def checkoutDir = new File(targetDir, 'publish-checkout')
 log.info "Checkout directory: $checkoutDir"
@@ -70,15 +70,7 @@ ant.copy(todir: checkoutDir) {
   fileset(dir: hugoPublicDir) {
     include(name: '**')
   }
-}
-
-def mavenDir = new File(checkoutDir, 'maven')
-log.info "Maven directory: $mavenDir"
-ant.mkdir(dir: mavenDir)
-
-log.info "Copying maven-generated content to: $mavenDir"
-ant.copy(todir: mavenDir) {
-  fileset(dir: stagingDir) {
+  fileset(dir: siteDir) {
     include(name: '**')
   }
 }

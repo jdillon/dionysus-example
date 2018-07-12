@@ -21,11 +21,7 @@ Howdy folks!
 * [Tags](tags/)
 * [Categories](categories/)
 
-## Maven Plugin
-
-* [Goals](maven/dionysus-example-maven-plugin/plugin-info.html)
-
 ## Reference
 
-* [Javadoc](maven/apidocs/)
-* [Source](maven/xref/)
+* [Javadoc](apidocs/)
+* [Source](xref/)

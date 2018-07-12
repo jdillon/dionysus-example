@@ -374,62 +374,6 @@
 
   <profiles>
     <profile>
-      <id>site-stage</id>
-
-      <build>
-        <defaultGoal>site:site site:stage</defaultGoal>
-
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-enforcer-plugin</artifactId>
-              <configuration>
-                <!-- site generation causes problems with project dependency resolution? -->
-                <skip>true</skip>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-      </build>
-    </profile>
-
-
-    <profile>
-      <id>site-prepare</id>
-
-      <dependencies>
-        <dependency>
-          <groupId>org.sonatype.dionysus</groupId>
-          <artifactId>hugo-dionysus-theme</artifactId>
-          <type>zip</type>
-        </dependency>
-      </dependencies>
-
-      <build>
-        <defaultGoal>antrun:run</defaultGoal>
-
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-antrun-plugin</artifactId>
-              <configuration>
-                <target>
-                  <!--suppress MavenModelInspection -->
-                  <unzip src="${org.sonatype.dionysus:hugo-dionysus-theme:zip}"
-                         dest="${project.build.directory}/hugo-theme">
-                    <cutdirsmapper dirs="1"/>
-                  </unzip>
-                </target>
-              </configuration>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-      </build>
-    </profile>
-
-    <profile>
       <id>site-build</id>
 
       <build>

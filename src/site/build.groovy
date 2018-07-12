@@ -49,7 +49,8 @@ if (generateMaven) {
   log.info 'Generating Maven site'
   snippet {
     ant.exec(executable: "$basedir/mvnw", dir: basedir as File, failonerror: true) {
-      arg(value: '-Psite-stage')
+      arg(value: 'javadoc:aggregate')
+      arg(value: 'jxr:aggregate')
     }
   }
 }
