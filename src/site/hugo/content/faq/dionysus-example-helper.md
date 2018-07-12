@@ -1,6 +1,6 @@
 ---
 title: "dionysus-example:helper"
-subtitle: specific goal documentation
+subtitle: Helper goal
 glyph: fas fa-puzzle-piece
 
 date: 2018-07-08T15:04:34-07:00

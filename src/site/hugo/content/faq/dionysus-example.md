@@ -1,6 +1,6 @@
 ---
 title: dionysus-example
-subtitle: Maven plugin goals
+subtitle: dionysus-example-maven-plugin
 glyph: fas fa-puzzle-piece
 
 date: 2018-07-08T15:04:34-07:00
