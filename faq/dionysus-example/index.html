@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html id="site-root" lang="en-us">
+  
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="author" content="Sonatype, Inc."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>dionysus-example &ndash; Hugo Dionysus Theme Example</title>
+
+  <link rel="shortcut icon" href="/dionysus-example/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/dionysus-example/favicon.ico"/>
+  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-16x16.png" sizes="16x16"/>
+  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-32x32.png" sizes="32x32"/>
+
+  <link rel="stylesheet" href="/dionysus-example/theme.css">
+</head>
+
+  <body id="site-body">
+    <wrapper id="site-wrapper">
+      
+<header id="site-header">
+  <nav id="site-topnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/dionysus-example/">
+        <img class="d-inline-block align-top mr-2" src="/dionysus-example/images/sonatype-dark-32x32.png" width="32" height="32" alt="">
+        Hugo Dionysus Theme Example
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-toggle">
+        <ul class="navbar-nav mr-auto">
+          
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="/dionysus-example/faq/" title="FAQ">FAQ</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/dionysus-example/syntax/" title="Syntax">Syntax</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/dionysus-example/tags/" title="Tags">Tags</a>
+            </li>
+          
+        </ul>
+
+        
+        
+      </div>
+    </div>
+  </nav>
+</header>
+      <main id="site-content">
+        
+<div id="page-description">
+  <h1 class="title"><i class="fas fa-question"></i> dionysus-example</h1>
+  
+    <p class="subtitle">Maven plugin goals</p>
+  
+</div>
+<table class="page-metadata">
+  <tr>
+    <td class="key">Created</td>
+    <td>Sunday, July 8, 2018</td>
+  </tr>
+
+  
+    <tr>
+      <td class="key">Tags</td>
+      <td class="value">
+      
+        <a href="/dionysus-example/tags/dionysus-example">dionysus-example</a>
+      
+      </td>
+    </tr>
+  
+
+  
+    <tr>
+      <td class="key">Categories</td>
+      <td class="value">
+      
+        <a href="/dionysus-example/categories/maven-plugin">maven-plugin</a>
+      
+      </td>
+    </tr>
+  
+
+  
+</table>
+
+
+<hr/>
+
+
+
+<h1 id="maven-plugin">Maven Plugin</h1>
+
+<p>Goals available for this plugin:</p>
+
+
+
+
+
+
+<table class="table table-striped">
+  <caption>2 goals</caption>
+  <thead>
+    <tr>
+      <th scope="col">Goal</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td><a href="../dionysus-example-help">dionysus-example:help</a></td>
+      <td>Display help information on dionysus-example-maven-plugin.<br>
+Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.</td>
+    </tr>
+    
+    <tr>
+      <td><a href="../dionysus-example-helper">dionysus-example:helper</a></td>
+      <td>Helper mojo.</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<h2 id="usage">Usage</h2>
+
+<p>You should specify the version in your project&rsquo;s plugin configuration:</p>
+
+<p>
+
+
+
+
+
+
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#309;font-weight:bold">&lt;project&gt;</span>
+  <span style="color:#309;font-weight:bold">&lt;build&gt;</span>
+    <span style="color:#09f;font-style:italic">&lt;!-- plugin management --&gt;</span>
+    <span style="color:#309;font-weight:bold">&lt;pluginMangement&gt;</span>
+      <span style="color:#309;font-weight:bold">&lt;plugins&gt;</span>
+        <span style="color:#309;font-weight:bold">&lt;plugin&gt;</span>
+          <span style="color:#309;font-weight:bold">&lt;groupId&gt;</span>org.sonatype.dionysus<span style="color:#309;font-weight:bold">&lt;/groupId&gt;</span>
+          <span style="color:#309;font-weight:bold">&lt;artifactId&gt;</span>dionysus-example-maven-plugin<span style="color:#309;font-weight:bold">&lt;/artifactId&gt;</span>
+          <span style="color:#309;font-weight:bold">&lt;version&gt;</span>1-SNAPSHOT<span style="color:#309;font-weight:bold">&lt;/version&gt;</span>
+        <span style="color:#309;font-weight:bold">&lt;/plugin&gt;</span>
+      <span style="color:#309;font-weight:bold">&lt;/plugins&gt;</span>
+    <span style="color:#309;font-weight:bold">&lt;/pluginMangement&gt;</span>
+
+    <span style="color:#09f;font-style:italic">&lt;!-- plugin execution --&gt;</span>
+    <span style="color:#309;font-weight:bold">&lt;plugins&gt;</span>
+      <span style="color:#309;font-weight:bold">&lt;plugin&gt;</span>
+        <span style="color:#309;font-weight:bold">&lt;groupId&gt;</span>org.sonatype.dionysus<span style="color:#309;font-weight:bold">&lt;/groupId&gt;</span>
+        <span style="color:#309;font-weight:bold">&lt;artifactId&gt;</span>dionysus-example-maven-plugin<span style="color:#309;font-weight:bold">&lt;/artifactId&gt;</span>
+        <span style="color:#309;font-weight:bold">&lt;version&gt;</span>1-SNAPSHOT<span style="color:#309;font-weight:bold">&lt;/version&gt;</span>
+      <span style="color:#309;font-weight:bold">&lt;/plugin&gt;</span>
+    <span style="color:#309;font-weight:bold">&lt;/plugins&gt;</span>
+  <span style="color:#309;font-weight:bold">&lt;/build&gt;</span>
+<span style="color:#309;font-weight:bold">&lt;/project&gt;</span>
+</code></pre></div>
+
+</p>
+
+
+
+      </main>
+      
+<footer id="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="section-brand">
+        <h5 class="section-title"><img src="/dionysus-example/images/sonatype-24x24.png" width="24" height="24" alt=""></h5>
+        <small class="section-entry">&copy; 2018-present, Sonatype Inc.</small>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">About</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/about">Hugo Dionysus Theme Example</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">Resources</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">Legal</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/tos">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+<script src="/dionysus-example/theme.js"></script>
+    </wrapper>
+  </body>
+</html>

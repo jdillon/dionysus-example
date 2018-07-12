@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FAQ on Hugo Dionysus Theme Example</title>
-    <link>https://jdillon.github.io/dionysus-example/faq/</link>
-    <description>Recent content in FAQ on Hugo Dionysus Theme Example</description>
+    <title>Dionysus Example on Hugo Dionysus Theme Example</title>
+    <link>https://jdillon.github.io/dionysus-example/tags/dionysus-example/</link>
+    <description>Recent content in Dionysus Example on Hugo Dionysus Theme Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jul 2018 13:44:46 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jul 2018 15:04:34 -0700</lastBuildDate>
     
-	<atom:link href="https://jdillon.github.io/dionysus-example/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jdillon.github.io/dionysus-example/tags/dionysus-example/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How Good Is Cheese</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</guid>
-      <description>Quiet simply &amp;hellip; pretty good!
-  </description>
-    </item>
     
     <item>
       <title>dionysus-example</title>
@@ -51,24 +41,6 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</guid>
       <description>dionysus-example:helper Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Description Helper mojo. Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description     anotherThingy java.lang.String ??? Another thingy.   skip boolean ??? Skip execution.    Parameter Details  anotherThingy Another thingy.
 Type java.lang.String Since ??? Required true Default Value foo User Property      skip Skip execution.</description>
-    </item>
-    
-    <item>
-      <title>Who is Dionysus</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</guid>
-      <description>Dionysus (/daɪ.əˈnaɪsəs/; Greek: Διόνυσος Dionysos) is the god of the grape harvest, winemaking and wine, of ritual madness, fertility, theatre and religious ecstasy in ancient Greek religion and myth.</description>
-    </item>
-    
-    <item>
-      <title>Who is Xenu</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</guid>
-      <description>Xenu (/ˈziːnuː/), also called Xemu, was, according to Scientology founder L. Ron Hubbard, the dictator of the &amp;ldquo;Galactic Confederacy&amp;rdquo; who 75 million years ago brought billions of his people to Earth (then known as &amp;ldquo;Teegeeack&amp;rdquo;) in DC-8-like spacecraft, stacked them around volcanoes, and killed them with hydrogen bombs. Official Scientology scriptures hold that the thetans (immortal spirits) of these aliens adhere to humans, causing spiritual harm.</description>
     </item>
     
   </channel>

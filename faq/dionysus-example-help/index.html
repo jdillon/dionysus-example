@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html id="site-root" lang="en-us">
+  
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="author" content="Sonatype, Inc."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>dionysus-example:help &ndash; Hugo Dionysus Theme Example</title>
+
+  <link rel="shortcut icon" href="/dionysus-example/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/dionysus-example/favicon.ico"/>
+  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-16x16.png" sizes="16x16"/>
+  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-32x32.png" sizes="32x32"/>
+
+  <link rel="stylesheet" href="/dionysus-example/theme.css">
+</head>
+
+  <body id="site-body">
+    <wrapper id="site-wrapper">
+      
+<header id="site-header">
+  <nav id="site-topnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/dionysus-example/">
+        <img class="d-inline-block align-top mr-2" src="/dionysus-example/images/sonatype-dark-32x32.png" width="32" height="32" alt="">
+        Hugo Dionysus Theme Example
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-toggle">
+        <ul class="navbar-nav mr-auto">
+          
+          
+            <li class="nav-item">
+              <a class="nav-link active" href="/dionysus-example/faq/" title="FAQ">FAQ</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/dionysus-example/syntax/" title="Syntax">Syntax</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/dionysus-example/tags/" title="Tags">Tags</a>
+            </li>
+          
+        </ul>
+
+        
+        
+      </div>
+    </div>
+  </nav>
+</header>
+      <main id="site-content">
+        
+<div id="page-description">
+  <h1 class="title"><i class="fas fa-question"></i> dionysus-example:help</h1>
+  
+    <p class="subtitle">specific goal documentation</p>
+  
+</div>
+<table class="page-metadata">
+  <tr>
+    <td class="key">Created</td>
+    <td>Sunday, July 8, 2018</td>
+  </tr>
+
+  
+    <tr>
+      <td class="key">Tags</td>
+      <td class="value">
+      
+        <a href="/dionysus-example/tags/dionysus-example">dionysus-example</a>
+      
+      </td>
+    </tr>
+  
+
+  
+    <tr>
+      <td class="key">Categories</td>
+      <td class="value">
+      
+        <a href="/dionysus-example/categories/maven-plugin">maven-plugin</a>
+      
+      </td>
+    </tr>
+  
+
+  
+</table>
+
+
+<hr/>
+
+
+
+
+
+
+<h2>dionysus-example:help</h2>
+
+<dl class="row">
+  <dt class="col-sm-2">Full name</dt>
+  <dd class="col-sm-9 monospace">org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help</dd>
+
+  <dt class="col-sm-2">Description</dt>
+  <dd class="col-sm-9">Display help information on dionysus-example-maven-plugin.<br>
+Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.</dd>
+
+  <dt class="col-sm-2">Since</dt>
+  <dd class="col-sm-9 monospace"></dd>
+
+  <dt class="col-sm-2">Phase</dt>
+  <dd class="col-sm-9 monospace"></dd>
+
+  <dt class="col-sm-2">Requires Project</dt>
+  <dd class="col-sm-9 monospace">false</dd>
+
+  <dt class="col-sm-2">Requires Online</dt>
+  <dd class="col-sm-9 monospace">false</dd>
+
+  <dt class="col-sm-2">Requires Direct Invocation</dt>
+  <dd class="col-sm-9 monospace">false</dd>
+
+  <dt class="col-sm-2">Thread-safe</dt>
+  <dd class="col-sm-9 monospace">true</dd>
+</dl>
+
+<h3>Parameters</h3>
+
+
+<table class="table table-striped">
+  <caption>4 parameters</caption>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Since</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td><a href="#detail">detail</a></td>
+      <td class="monospace">boolean</td>
+      <td class="monospace"></td>
+      <td>If <code>true</code>, display all settable properties for each goal.</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#goal">goal</a></td>
+      <td class="monospace">java.lang.String</td>
+      <td class="monospace"></td>
+      <td>The name of the goal for which to show help. If unspecified, all goals will be displayed.</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#indentSize">indentSize</a></td>
+      <td class="monospace">int</td>
+      <td class="monospace"></td>
+      <td>The number of spaces per indentation level, should be positive.</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#lineLength">lineLength</a></td>
+      <td class="monospace">int</td>
+      <td class="monospace"></td>
+      <td>The maximum length of a display line, should be positive.</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<h3>Parameter Details</h3>
+
+
+<div>
+  <h4><a name="detail">detail</a></h4>
+  <p>If <code>true</code>, display all settable properties for each goal.</p>
+  <dl class="row">
+    <dt class="col-sm-2">Type</dt>
+    <dd class="col-sm-9 monospace">boolean</dd>
+
+    <dt class="col-sm-2">Since</dt>
+    <dd class="col-sm-9 monospace"></dd>
+
+    <dt class="col-sm-2">Required</dt>
+    <dd class="col-sm-9 monospace">false</dd>
+
+    <dt class="col-sm-2">Default Value</dt>
+    <dd class="col-sm-9 monospace">false</dd>
+
+    <dt class="col-sm-2">User Property</dt>
+    <dd class="col-sm-9 monospace">${detail}</dd>
+  </dl>
+  <hr/>
+</div>
+
+
+<div>
+  <h4><a name="goal">goal</a></h4>
+  <p>The name of the goal for which to show help. If unspecified, all goals will be displayed.</p>
+  <dl class="row">
+    <dt class="col-sm-2">Type</dt>
+    <dd class="col-sm-9 monospace">java.lang.String</dd>
+
+    <dt class="col-sm-2">Since</dt>
+    <dd class="col-sm-9 monospace"></dd>
+
+    <dt class="col-sm-2">Required</dt>
+    <dd class="col-sm-9 monospace">false</dd>
+
+    <dt class="col-sm-2">Default Value</dt>
+    <dd class="col-sm-9 monospace"></dd>
+
+    <dt class="col-sm-2">User Property</dt>
+    <dd class="col-sm-9 monospace">${goal}</dd>
+  </dl>
+  <hr/>
+</div>
+
+
+<div>
+  <h4><a name="indentSize">indentSize</a></h4>
+  <p>The number of spaces per indentation level, should be positive.</p>
+  <dl class="row">
+    <dt class="col-sm-2">Type</dt>
+    <dd class="col-sm-9 monospace">int</dd>
+
+    <dt class="col-sm-2">Since</dt>
+    <dd class="col-sm-9 monospace"></dd>
+
+    <dt class="col-sm-2">Required</dt>
+    <dd class="col-sm-9 monospace">false</dd>
+
+    <dt class="col-sm-2">Default Value</dt>
+    <dd class="col-sm-9 monospace">2</dd>
+
+    <dt class="col-sm-2">User Property</dt>
+    <dd class="col-sm-9 monospace">${indentSize}</dd>
+  </dl>
+  <hr/>
+</div>
+
+
+<div>
+  <h4><a name="lineLength">lineLength</a></h4>
+  <p>The maximum length of a display line, should be positive.</p>
+  <dl class="row">
+    <dt class="col-sm-2">Type</dt>
+    <dd class="col-sm-9 monospace">int</dd>
+
+    <dt class="col-sm-2">Since</dt>
+    <dd class="col-sm-9 monospace"></dd>
+
+    <dt class="col-sm-2">Required</dt>
+    <dd class="col-sm-9 monospace">false</dd>
+
+    <dt class="col-sm-2">Default Value</dt>
+    <dd class="col-sm-9 monospace">80</dd>
+
+    <dt class="col-sm-2">User Property</dt>
+    <dd class="col-sm-9 monospace">${lineLength}</dd>
+  </dl>
+  <hr/>
+</div>
+
+
+
+
+
+
+      </main>
+      
+<footer id="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="section-brand">
+        <h5 class="section-title"><img src="/dionysus-example/images/sonatype-24x24.png" width="24" height="24" alt=""></h5>
+        <small class="section-entry">&copy; 2018-present, Sonatype Inc.</small>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">About</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/about">Hugo Dionysus Theme Example</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">Resources</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h5 class="section-title">Legal</h5>
+        <ul class="section-list">
+          <li>
+            <a class="section-entry" href="/dionysus-example/tos">Terms of Service</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+<script src="/dionysus-example/theme.js"></script>
+    </wrapper>
+  </body>
+</html>
