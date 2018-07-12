@@ -17,4 +17,4 @@ tags:
   - dionysus-example
 ---
 
-{{< mavenplugin-goal data="dionysus-example-maven-plugin" goal="helper" >}}
+{{< mavenplugin-goal plugin="dionysus-example-maven-plugin" goal="helper" >}}

@@ -1,0 +1,364 @@
+{"plugin": {
+  "goalPrefix": "dionysus-example",
+  "inheritedByDefault": true,
+  "isolatedRealm": false,
+  "groupId": "org.sonatype.dionysus",
+  "name": "org.sonatype.dionysus:dionysus-example-maven-plugin",
+  "mojos": {"mojo": [
+    {
+      "inheritedByDefault": true,
+      "goal": "help",
+      "configuration": {
+        "goal": {
+          "implementation": "java.lang.String",
+          "content": "${goal}"
+        },
+        "detail": {
+          "default-value": false,
+          "implementation": "boolean",
+          "content": "${detail}"
+        },
+        "indentSize": {
+          "default-value": 2,
+          "implementation": "int",
+          "content": "${indentSize}"
+        },
+        "lineLength": {
+          "default-value": 80,
+          "implementation": "int",
+          "content": "${lineLength}"
+        }
+      },
+      "requiresProject": false,
+      "aggregator": false,
+      "implementation": "org.sonatype.dionysus.example.maven.HelpMojo",
+      "description": "Display help information on dionysus-example-maven-plugin.<br>\nCall <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;<\/code> to display parameter details.",
+      "threadSafe": true,
+      "requiresReports": false,
+      "language": "java",
+      "requiresDirectInvocation": false,
+      "requiresOnline": false,
+      "instantiationStrategy": "per-lookup",
+      "executionStrategy": "once-per-session",
+      "parameters": {"parameter": [
+        {
+          "editable": true,
+          "name": "detail",
+          "description": "If <code>true<\/code>, display all settable properties for each goal.",
+          "type": "boolean",
+          "required": false
+        },
+        {
+          "editable": true,
+          "name": "goal",
+          "description": "The name of the goal for which to show help. If unspecified, all goals will be displayed.",
+          "type": "java.lang.String",
+          "required": false
+        },
+        {
+          "editable": true,
+          "name": "indentSize",
+          "description": "The number of spaces per indentation level, should be positive.",
+          "type": "int",
+          "required": false
+        },
+        {
+          "editable": true,
+          "name": "lineLength",
+          "description": "The maximum length of a display line, should be positive.",
+          "type": "int",
+          "required": false
+        }
+      ]}
+    },
+    {
+      "inheritedByDefault": true,
+      "phase": "generate-resources",
+      "goal": "helper",
+      "requiresDependencyResolution": "compile",
+      "configuration": {
+        "settings": {
+          "default-value": "${settings}",
+          "implementation": "org.apache.maven.settings.Settings"
+        },
+        "session": {
+          "default-value": "${session}",
+          "implementation": "org.apache.maven.execution.MavenSession"
+        },
+        "anotherThingy": {
+          "default-value": "foo",
+          "implementation": "java.lang.String"
+        },
+        "project": {
+          "default-value": "${project}",
+          "implementation": "org.apache.maven.project.MavenProject"
+        },
+        "skip": {
+          "default-value": false,
+          "implementation": "boolean",
+          "content": "${helper.skip}"
+        }
+      },
+      "requiresProject": true,
+      "aggregator": false,
+      "implementation": "org.sonatype.dionysus.example.maven.HelperMojo",
+      "description": "Helper mojo.",
+      "threadSafe": false,
+      "requiresReports": false,
+      "language": "java",
+      "requiresDirectInvocation": false,
+      "requiresOnline": false,
+      "instantiationStrategy": "per-lookup",
+      "executionStrategy": "once-per-session",
+      "parameters": {"parameter": [
+        {
+          "editable": true,
+          "name": "anotherThingy",
+          "description": "Another thingy.",
+          "type": "java.lang.String",
+          "required": true,
+          "since": "???"
+        },
+        {
+          "editable": false,
+          "name": "project",
+          "description": "",
+          "type": "org.apache.maven.project.MavenProject",
+          "required": false
+        },
+        {
+          "editable": false,
+          "name": "session",
+          "description": "",
+          "type": "org.apache.maven.execution.MavenSession",
+          "required": false
+        },
+        {
+          "editable": false,
+          "name": "settings",
+          "description": "",
+          "type": "org.apache.maven.settings.Settings",
+          "required": false
+        },
+        {
+          "editable": true,
+          "name": "skip",
+          "description": "Skip execution.",
+          "type": "boolean",
+          "required": false,
+          "since": "???"
+        }
+      ]},
+      "since": "???"
+    }
+  ]},
+  "description": "org.sonatype.dionysus:dionysus-example-maven-plugin",
+  "artifactId": "dionysus-example-maven-plugin",
+  "version": "1-SNAPSHOT",
+  "dependencies": {"dependency": [
+    {
+      "groupId": "org.sonatype.dionysus",
+      "artifactId": "dionysus-example-common",
+      "type": "jar",
+      "version": "1-SNAPSHOT"
+    },
+    {
+      "groupId": "com.google.code.findbugs",
+      "artifactId": "jsr305",
+      "type": "jar",
+      "version": "3.0.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-plugin-api",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-model",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-artifact",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.eclipse.sisu",
+      "artifactId": "org.eclipse.sisu.plexus",
+      "type": "jar",
+      "version": "0.3.3"
+    },
+    {
+      "groupId": "javax.enterprise",
+      "artifactId": "cdi-api",
+      "type": "jar",
+      "version": 1
+    },
+    {
+      "groupId": "javax.annotation",
+      "artifactId": "jsr250-api",
+      "type": "jar",
+      "version": 1
+    },
+    {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus-utils",
+      "type": "jar",
+      "version": "3.1.0"
+    },
+    {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus-classworlds",
+      "type": "jar",
+      "version": "2.5.2"
+    },
+    {
+      "groupId": "org.apache.maven.plugin-tools",
+      "artifactId": "maven-plugin-annotations",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-core",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-settings",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-settings-builder",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus-interpolation",
+      "type": "jar",
+      "version": 1.24
+    },
+    {
+      "groupId": "org.sonatype.plexus",
+      "artifactId": "plexus-sec-dispatcher",
+      "type": "jar",
+      "version": 1.4
+    },
+    {
+      "groupId": "org.sonatype.plexus",
+      "artifactId": "plexus-cipher",
+      "type": "jar",
+      "version": 1.4
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-builder-support",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-repository-metadata",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-model-builder",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven",
+      "artifactId": "maven-resolver-provider",
+      "type": "jar",
+      "version": "3.5.2"
+    },
+    {
+      "groupId": "org.apache.maven.resolver",
+      "artifactId": "maven-resolver-impl",
+      "type": "jar",
+      "version": "1.1.0"
+    },
+    {
+      "groupId": "org.apache.maven.resolver",
+      "artifactId": "maven-resolver-api",
+      "type": "jar",
+      "version": "1.1.0"
+    },
+    {
+      "groupId": "org.apache.maven.resolver",
+      "artifactId": "maven-resolver-spi",
+      "type": "jar",
+      "version": "1.1.0"
+    },
+    {
+      "groupId": "org.apache.maven.resolver",
+      "artifactId": "maven-resolver-util",
+      "type": "jar",
+      "version": "1.1.0"
+    },
+    {
+      "groupId": "org.apache.maven.shared",
+      "artifactId": "maven-shared-utils",
+      "type": "jar",
+      "version": "3.1.0"
+    },
+    {
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "type": "jar",
+      "version": 2.5
+    },
+    {
+      "groupId": "org.eclipse.sisu",
+      "artifactId": "org.eclipse.sisu.inject",
+      "type": "jar",
+      "version": "0.3.3"
+    },
+    {
+      "groupId": "com.google.inject",
+      "artifactId": "guice",
+      "type": "jar",
+      "version": 4
+    },
+    {
+      "groupId": "aopalliance",
+      "artifactId": "aopalliance",
+      "type": "jar",
+      "version": 1
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "type": "jar",
+      "version": 20
+    },
+    {
+      "groupId": "javax.inject",
+      "artifactId": "javax.inject",
+      "type": "jar",
+      "version": 1
+    },
+    {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus-component-annotations",
+      "type": "jar",
+      "version": "1.7.1"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "type": "jar",
+      "version": 3.5
+    }
+  ]}
+}}
