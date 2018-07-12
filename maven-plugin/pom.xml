@@ -77,25 +77,13 @@
       </plugin>
 
       <plugin>
-        <groupId>org.codehaus.gmaven</groupId>
-        <artifactId>groovy-maven-plugin</artifactId>
-        <dependencies>
-          <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20180130</version>
-          </dependency>
-        </dependencies>
+        <groupId>org.sonatype.dionysus</groupId>
+        <artifactId>dionysus-maven-plugin</artifactId>
         <executions>
           <execution>
-            <id>generate</id>
-            <phase>prepare-package</phase>
             <goals>
-              <goal>execute</goal>
+              <goal>generate-mavenplugin</goal>
             </goals>
-            <configuration>
-              <source>${project.basedir}/src/main/extract.groovy</source>
-            </configuration>
           </execution>
         </executions>
       </plugin>
