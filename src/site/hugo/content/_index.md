@@ -8,10 +8,14 @@ draft: false
 
 Howdy folks!
 
+## Stuff
+
+* [dionysus-example](dionysus-example/)
+
 ## Related
 
-* [dionysus-example](https://github.com/jdillon/dionysus-example)
-* [hugo-dionysus-theme](https://github.com/jdillon/hugo-dionysus-theme)
+* [dionysus-example source](https://github.com/jdillon/dionysus-example)
+* [hugo-dionysus-theme source](https://github.com/jdillon/hugo-dionysus-theme)
 {{<comment>}}
 * [dionysus-maven-plugin](https://github.com/jdillon/dionysus-maven-plugin)
 {{</comment>}}
