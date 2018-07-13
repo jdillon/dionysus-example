@@ -27,7 +27,7 @@
       <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
-      <description>{{&amp;lt; maven-modules &amp;gt;}}</description>
+      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
     </item>
     
     <item>
