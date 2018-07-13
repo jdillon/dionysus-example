@@ -211,6 +211,14 @@
           <groupId>org.sonatype.dionysus</groupId>
           <artifactId>dionysus-maven-plugin</artifactId>
           <version>1-SNAPSHOT</version>
+          <extensions>true</extensions>
+          <configuration>
+            <generators>
+              <mavenModules/>
+              <mavenPom/>
+              <mavenPlugin/>
+            </generators>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
