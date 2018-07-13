@@ -12,6 +12,7 @@ menu:
     parent: FAQ
 
 categories:
+  - maven
   - maven-plugin
 tags:
   - dionysus-example
