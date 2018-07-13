@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Maven modules</title>
+      <link>https://jdillon.github.io/dionysus-example/faq/maven-modules/</link>
+      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
+      <description>{{&amp;lt; maven-modules &amp;gt;}}</description>
+    </item>
+    
+    <item>
       <title>dionysus-example</title>
       <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</link>
       <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>

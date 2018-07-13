@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maven on Hugo Dionysus Theme Example</title>
+    <link>https://jdillon.github.io/dionysus-example/categories/maven/</link>
+    <description>Recent content in Maven on Hugo Dionysus Theme Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jul 2018 15:04:34 -0700</lastBuildDate>
+    
+	<atom:link href="https://jdillon.github.io/dionysus-example/categories/maven/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maven modules</title>
+      <link>https://jdillon.github.io/dionysus-example/faq/maven-modules/</link>
+      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
+      <description>{{&amp;lt; maven-modules &amp;gt;}}</description>
+    </item>
+    
+  </channel>
+</rss>
