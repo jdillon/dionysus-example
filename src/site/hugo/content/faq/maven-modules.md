@@ -15,4 +15,6 @@ categories:
   - maven
 ---
 
+## Maven modules
+
 {{< maven-modules >}}
