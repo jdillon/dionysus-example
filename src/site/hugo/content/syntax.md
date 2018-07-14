@@ -3,7 +3,6 @@ title: Syntax
 subtitle: Supported markdown syntax
 glyph: fas fa-vial
 
-date: 2018-07-06T13:44:46-07:00
 draft: false
 
 menu:

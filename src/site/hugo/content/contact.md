@@ -3,12 +3,12 @@ title: Contact
 subtitle: Tell us what you think
 glyph: far fa-envelope
 
-date: 2018-07-06T13:44:46-07:00
 draft: false
 
 menu:
-  bottomnav:
-    identifier: Contact
+  footer_sections:
+    parent: footer_resources
+    weight: 1
 ---
 
 {{<img src="/images/cute-kawaii.jpg" class="float-right pl-3">}}

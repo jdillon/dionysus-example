@@ -3,7 +3,6 @@ title: Who is Dionysus
 subtitle: Greek god of wine and theater
 glyph: fas fa-question
 
-date: 2018-07-06T13:44:46-07:00
 draft: false
 
 type: faq
