@@ -85,10 +85,10 @@
   <dependencyManagement>
     <dependencies>
       <!--<dependency>-->
-        <!--<groupId>org.sonatype.dionysus</groupId>-->
-        <!--<artifactId>hugo-dionysus-theme</artifactId>-->
-        <!--<type>zip</type>-->
-        <!--<version>1-SNAPSHOT</version>-->
+      <!--<groupId>org.sonatype.dionysus</groupId>-->
+      <!--<artifactId>hugo-dionysus-theme</artifactId>-->
+      <!--<type>zip</type>-->
+      <!--<version>1-SNAPSHOT</version>-->
       <!--</dependency>-->
 
       <dependency>
@@ -368,23 +368,33 @@
       </plugin>
 
       <!--<plugin>-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-pmd-plugin</artifactId>-->
-        <!--<version>3.10.0</version>-->
+      <!--<groupId>org.apache.maven.plugins</groupId>-->
+      <!--<artifactId>maven-pmd-plugin</artifactId>-->
+      <!--<version>3.10.0</version>-->
       <!--</plugin>-->
 
       <!--<plugin>-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-surefire-report-plugin</artifactId>-->
-        <!--<version>2.22.0</version>-->
+      <!--<groupId>org.apache.maven.plugins</groupId>-->
+      <!--<artifactId>maven-surefire-report-plugin</artifactId>-->
+      <!--<version>2.22.0</version>-->
       <!--</plugin>-->
 
       <!--<plugin>-->
-        <!--<groupId>org.codehaus.mojo</groupId>-->
-        <!--<artifactId>findbugs-maven-plugin</artifactId>-->
-        <!--<version>3.0.5</version>-->
+      <!--<groupId>org.codehaus.mojo</groupId>-->
+      <!--<artifactId>findbugs-maven-plugin</artifactId>-->
+      <!--<version>3.0.5</version>-->
       <!--</plugin>-->
     </plugins>
   </reporting>
+
+  <profiles>
+    <profile>
+      <id>dionysus-generate-data</id>
+    </profile>
+
+    <profile>
+      <id>dionysus-generate-maven-site</id>
+    </profile>
+  </profiles>
 
 </project>

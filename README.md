@@ -30,7 +30,7 @@ Prepare `gh-pages` branch:
 
 ### Building
 
-    ./mvnw dionysus:build
+    ./mvnw clean install dionysus:build
     
 ### Publishing
 
