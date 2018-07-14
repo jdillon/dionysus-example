@@ -3,120 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/maven-modules/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jdillon.github.io/dionysus-example/about/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jdillon.github.io/dionysus-example/categories/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/contact/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/syntax/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/tags/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/tos/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jdillon.github.io/dionysus-example/tags/cheese/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/contact/</loc>
   </url>
   
   <url>
     <loc>https://jdillon.github.io/dionysus-example/tags/dionysus-example/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/</loc>
+  </url>
+  
+  <url>
     <loc>https://jdillon.github.io/dionysus-example/categories/fact/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jdillon.github.io/dionysus-example/tags/god/</loc>
-    <lastmod>2018-07-06T13:44:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/license/</loc>
+  </url>
+  
+  <url>
     <loc>https://jdillon.github.io/dionysus-example/categories/maven/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jdillon.github.io/dionysus-example/categories/maven-plugin/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/maven-modules/</loc>
+  </url>
+  
+  <url>
     <loc>https://jdillon.github.io/dionysus-example/categories/silly/</loc>
-    <lastmod>2018-07-08T15:04:34-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/syntax/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/tos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/dionysus-example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</loc>
   </url>
   
 </urlset>

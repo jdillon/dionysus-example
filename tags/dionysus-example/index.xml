@@ -6,17 +6,16 @@
     <description>Recent content in Dionysus Example on Hugo Dionysus Theme Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jul 2018 15:04:34 -0700</lastBuildDate>
     
 	<atom:link href="https://jdillon.github.io/dionysus-example/tags/dionysus-example/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dionysus-example</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      <link>https://jdillon.github.io/dionysus-example/dionysus-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</guid>
+      <guid>https://jdillon.github.io/dionysus-example/dionysus-example/</guid>
       <description>Goals available for this plugin:
 2 goals   Goal Description      dionysus-example:help Display help information on dionysus-example-maven-plugin.
 Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.    dionysus-example:helper Helper mojo.     Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
@@ -25,21 +24,21 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
     
     <item>
       <title>dionysus-example:help</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      <link>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</guid>
+      <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</guid>
       <description>dionysus-example:help Display help information on dionysus-example-maven-plugin.
 Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
     </item>
     
     <item>
       <title>dionysus-example:helper</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
+      <link>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</guid>
-      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo      skip Skip execution.</description>
+      <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</guid>
+      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.     anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo    skip Skip execution.</description>
     </item>
     
   </channel>

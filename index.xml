@@ -6,65 +6,14 @@
     <description>Recent content in Welcome on Hugo Dionysus Theme Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jul 2018 13:44:46 -0700</lastBuildDate>
     
 	<atom:link href="https://jdillon.github.io/dionysus-example/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How Good Is Cheese</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</guid>
-      <description>Quiet simply &amp;hellip; pretty good!
-  </description>
-    </item>
-    
-    <item>
-      <title>Maven modules</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/maven-modules/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
-      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
-    </item>
-    
-    <item>
-      <title>dionysus-example</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example/</guid>
-      <description>Goals available for this plugin:
-2 goals   Goal Description      dionysus-example:help Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.    dionysus-example:helper Helper mojo.     Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
- &amp;lt;project&amp;gt; &amp;lt;build&amp;gt; &amp;lt;!-- plugin management --&amp;gt; &amp;lt;pluginMangement&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.sonatype.dionysus&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;dionysus-example-maven-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/pluginMangement&amp;gt; &amp;lt;!-- plugin execution --&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
-    </item>
-    
-    <item>
-      <title>dionysus-example:help</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-help/</guid>
-      <description>dionysus-example:help Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
-    </item>
-    
-    <item>
-      <title>dionysus-example:helper</title>
-      <link>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</link>
-      <pubDate>Sun, 08 Jul 2018 15:04:34 -0700</pubDate>
-      
-      <guid>https://jdillon.github.io/dionysus-example/faq/dionysus-example-helper/</guid>
-      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo      skip Skip execution.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://jdillon.github.io/dionysus-example/about/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/about/</guid>
       <description>Vestibulum vel sollicitudin diam. Nulla hendrerit sapien mauris, in consequat turpis ornare vel. Nunc condimentum nunc ante, sit amet porta nunc cursus suscipit. Pellentesque erat metus, scelerisque sit amet euismod et, eleifend a est. Etiam quis congue ante. Sed suscipit enim placerat condimentum malesuada. Nam vitae metus fermentum, ullamcorper nibh vitae, ultricies purus. Cras nec efficitur felis, eleifend sodales mauris. Sed accumsan ligula ut libero porta, non blandit nulla suscipit. Etiam id posuere ante.</description>
@@ -73,16 +22,44 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
     <item>
       <title>Contact</title>
       <link>https://jdillon.github.io/dionysus-example/contact/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/contact/</guid>
       <description>Send us  E-Mail if you want to say hello.</description>
     </item>
     
     <item>
+      <title>How Good Is Cheese</title>
+      <link>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/faq/how-good-is-cheese/</guid>
+      <description>Quiet simply &amp;hellip; pretty good!
+  </description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://jdillon.github.io/dionysus-example/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/license/</guid>
+      <description>1 licenses   Name URL     ASL2 http://www.apache.org/licenses/LICENSE-2.0.txt    ASL2  Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. &amp;#34;License&amp;#34; shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. &amp;#34;Licensor&amp;#34; shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.</description>
+    </item>
+    
+    <item>
+      <title>Maven modules</title>
+      <link>https://jdillon.github.io/dionysus-example/faq/maven-modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
+      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
+    </item>
+    
+    <item>
       <title>Syntax</title>
       <link>https://jdillon.github.io/dionysus-example/syntax/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/syntax/</guid>
       <description>Normal Foo was here.
@@ -99,7 +76,7 @@ Def Lists  Cat Fluffy animal everyone likes Internet Vector of transmission for 
     <item>
       <title>Terms of Service</title>
       <link>https://jdillon.github.io/dionysus-example/tos/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/tos/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices elit et rhoncus maximus. Suspendisse potenti. Vivamus ante lacus, congue vitae nisi vitae, pellentesque tempor justo.</description>
@@ -108,7 +85,7 @@ Def Lists  Cat Fluffy animal everyone likes Internet Vector of transmission for 
     <item>
       <title>Who is Dionysus</title>
       <link>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/who-is-dionysus/</guid>
       <description>Dionysus (/daɪ.əˈnaɪsəs/; Greek: Διόνυσος Dionysos) is the god of the grape harvest, winemaking and wine, of ritual madness, fertility, theatre and religious ecstasy in ancient Greek religion and myth.</description>
@@ -117,10 +94,29 @@ Def Lists  Cat Fluffy animal everyone likes Internet Vector of transmission for 
     <item>
       <title>Who is Xenu</title>
       <link>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</link>
-      <pubDate>Fri, 06 Jul 2018 13:44:46 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/who-is-xenu/</guid>
       <description>Xenu (/ˈziːnuː/), also called Xemu, was, according to Scientology founder L. Ron Hubbard, the dictator of the &amp;ldquo;Galactic Confederacy&amp;rdquo; who 75 million years ago brought billions of his people to Earth (then known as &amp;ldquo;Teegeeack&amp;rdquo;) in DC-8-like spacecraft, stacked them around volcanoes, and killed them with hydrogen bombs. Official Scientology scriptures hold that the thetans (immortal spirits) of these aliens adhere to humans, causing spiritual harm.</description>
+    </item>
+    
+    <item>
+      <title>dionysus-example:help</title>
+      <link>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</guid>
+      <description>dionysus-example:help Display help information on dionysus-example-maven-plugin.
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
+    </item>
+    
+    <item>
+      <title>dionysus-example:helper</title>
+      <link>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</guid>
+      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.     anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo    skip Skip execution.</description>
     </item>
     
   </channel>
