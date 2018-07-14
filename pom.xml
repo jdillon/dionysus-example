@@ -214,6 +214,7 @@
           <extensions>true</extensions>
           <configuration>
             <generators>
+              <mavenLicenses/>
               <mavenModules/>
               <mavenPom/>
               <mavenPlugin/>
