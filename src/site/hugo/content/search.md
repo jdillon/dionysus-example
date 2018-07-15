@@ -4,11 +4,10 @@ subtitle: Search pages
 glyph: fas fa-search
 
 layout: search
+outputs:
+  - html
+  - json
 
-menu:
-  topnav:
-    identifier: Search
-    
 sitemap:
   priority : 0.1
 ---
