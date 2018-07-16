@@ -20,5 +20,5 @@ Howdy folks!
 
 ## Reference
 
-* [Javadoc](apidocs/)
-* [Source](xref/)
+* [Javadoc](maven/apidocs/)
+* [Source](maven/xref/)
