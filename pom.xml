@@ -69,12 +69,6 @@
     <maven.compiler.target>1.7</maven.compiler.target>
 
     <apache-maven.version>3.5.2</apache-maven.version>
-    <apache-maven-javadoc-plugin.version>3.0.1</apache-maven-javadoc-plugin.version>
-    <apache-maven-plugin-plugin.version>3.5.2</apache-maven-plugin-plugin.version>
-
-    <dionysus.copyright>
-      Copyright &copy; ${project.inceptionYear}-present Sonatype, Inc. All rights reserved.
-    </dionysus.copyright>
   </properties>
 
   <modules>
@@ -173,7 +167,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${apache-maven-javadoc-plugin.version}</version>
+          <version>3.0.1</version>
           <configuration>
             <source>${maven.compiler.source}</source>
             <additionalOptions>
