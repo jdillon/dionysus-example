@@ -28,6 +28,18 @@ Prepare `gh-pages` branch:
     git ci -a -m "initial"
     git push origin gh-pages
 
+### Development
+
+To develop locally some additional looks are required.
+
+* [NodeJS](https://nodejs.org/en/download/); version 8+
+* [Yarn](https://yarnpkg.com/en/docs/install); ensure `yarn global bin` location is on `$PATH` 
+* [Brunch](https://brunch.io/); `yarn global add brunch`
+
+Once requirements are met, change to the `hugo` site directory:
+
+    (cd src/site/hugo; yarn start)
+
 ### Building
 
     ./mvnw clean install dionysus:build
