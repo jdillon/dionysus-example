@@ -17,9 +17,11 @@ not otherwise configured explicitly.
 
 ## Site 
 
-To keep things simple for production and development, the automation will write files into the `src/site/hugo` tree.
+To keep things simple for production and development, build will write files into the `src/site/hugo` directory.
  
 ### Setup
+
+**TODO** make a goal to automate this first-time setup
 
 Prepare `gh-pages` branch:
 
@@ -44,6 +46,3 @@ Prepare `gh-pages` branch:
 
     ./mvnw dionysus:publish
 
-# TODO
-
-* Configure project with git submodule; atm using symlink for faster turnaround 

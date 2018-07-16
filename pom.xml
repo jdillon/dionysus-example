@@ -84,13 +84,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <!--<dependency>-->
-      <!--<groupId>org.sonatype.dionysus</groupId>-->
-      <!--<artifactId>hugo-dionysus-theme</artifactId>-->
-      <!--<type>zip</type>-->
-      <!--<version>1-SNAPSHOT</version>-->
-      <!--</dependency>-->
-
       <dependency>
         <groupId>com.google.code.findbugs</groupId>
         <artifactId>jsr305</artifactId>
@@ -179,12 +172,6 @@
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.7.1</version>
-        </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>${apache-maven-javadoc-plugin.version}</version>
           <configuration>
@@ -211,8 +198,12 @@
           <groupId>org.sonatype.dionysus</groupId>
           <artifactId>dionysus-maven-plugin</artifactId>
           <version>1-SNAPSHOT</version>
-          <extensions>true</extensions>
           <configuration>
+            <theme>
+              <groupId>org.sonatype.dionysus</groupId>
+              <artifactId>dionysus-hugo-theme</artifactId>
+              <version>1-SNAPSHOT</version>
+            </theme>
             <generators>
               <mavenLicenses/>
               <mavenModules/>
