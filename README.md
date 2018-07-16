@@ -6,8 +6,9 @@ Example project using Hugo Dionysus Theme for building project sites.
 
 * Apache Maven 3.3+ (prefer to use included `mvnw`)
 * JDK 7+ (10 is **NOT** supported)
-* [Hugo](https://gohugo.io/getting-started/installing/)
 * [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme)
+
+[Hugo](https://gohugo.io/getting-started/installing/) is needed, but the maven integration will provide this if needed.
 
 ### Build
 
@@ -32,6 +33,7 @@ Prepare `gh-pages` branch:
 
 To develop locally some additional looks are required.
 
+* [Hugo](https://gohugo.io/getting-started/installing/)
 * [NodeJS](https://nodejs.org/en/download/); version 8+
 * [Yarn](https://yarnpkg.com/en/docs/install); ensure `yarn global bin` location is on `$PATH` 
 * [Brunch](https://brunch.io/); `yarn global add brunch`
