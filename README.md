@@ -4,7 +4,7 @@ Example project using Hugo Dionysus Theme for building project sites.
 
 ## Requirements
 
-* Apache Maven 3.3+ (prefer to use included `mvnw`)
+* [Apache Maven](https://maven.apache.org/) 3.3+ (prefer to use included `mvnw`)
 * JDK 7+ (10 is **NOT** supported)
 * [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme)
 
