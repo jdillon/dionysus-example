@@ -8,7 +8,8 @@ Example project using Hugo Dionysus Theme for building project sites.
 * JDK 7+ (10 is **NOT** supported)
 * [Hugo Dionysus Theme](https://github.com/jdillon/hugo-dionysus-theme)
 
-[Hugo](https://gohugo.io/getting-started/installing/) is needed, but the maven integration will provide this if needed.
+[Hugo](https://gohugo.io/getting-started/installing/) is needed, but the maven integration will provide this if
+not otherwise configured explicitly.
 
 ### Build
 
