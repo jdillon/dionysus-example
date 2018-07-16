@@ -40,7 +40,9 @@ To develop locally some additional looks are required.
 
 Once requirements are met, change to the `hugo` site directory:
 
-    (cd src/site/hugo; yarn start)
+    cd src/site/hugo
+    yarn install
+    yarn start
 
 ### Building
 
