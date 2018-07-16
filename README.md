@@ -17,6 +17,8 @@ not otherwise configured explicitly.
 
 ## Site 
 
+To keep things simple for production and development, the automation will write files into the `src/site/hugo` tree.
+ 
 ### Setup
 
 Prepare `gh-pages` branch:
