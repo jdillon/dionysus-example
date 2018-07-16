@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html id="site-root" lang="en-us">
-  
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="author" content="Sonatype, Inc."/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+<meta charset="UTF-8"/>
+<meta name="author" content="Sonatype, Inc."/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>dionysus-example:help &ndash; Hugo Dionysus Theme Example</title>
+<title>dionysus-example:help &ndash; Hugo Dionysus Theme Example</title>
 
-  <link rel="shortcut icon" href="/dionysus-example/favicon.ico">
-  <link rel="icon" type="image/x-icon" href="/dionysus-example/favicon.ico"/>
-  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-16x16.png" sizes="16x16"/>
-  <link rel="icon" type="image/png" href="/dionysus-example/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="shortcut icon" href="/dionysus-example/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/dionysus-example/favicon.ico"/>
+<link rel="icon" type="image/png" href="/dionysus-example/images/favicon-16x16.png" sizes="16x16"/>
+<link rel="icon" type="image/png" href="/dionysus-example/images/favicon-32x32.png" sizes="32x32"/>
 
-  <link rel="stylesheet" href="/dionysus-example/theme.css">
+<link rel="stylesheet" href="/dionysus-example/theme.css">
+
+
+  
+  <script>
+    var site_BaseURL = "https:\/\/jdillon.github.io\/dionysus-example\/";
+    var site_BasePath = "\/dionysus-example";
+  </script>
+
+  
 </head>
-
-  <body id="site-body">
-    <wrapper id="site-wrapper">
-      
+<body id="site-body">
+  <wrapper id="site-wrapper">
+    
 <header id="site-header">
   <nav id="site-topnav">
     <div class="container-fluid">
@@ -44,14 +52,25 @@
           
         </ul>
 
-        
-        
+        <form class="form-inline d-flex flex-nowrap" action="https://jdillon.github.io/dionysus-example/search" method="get">
+          <div class="input-group" data-toggle="tooltip" data-placement="bottom" title="Search">
+            <input class="form-control border-right-0 border-dark bg-dark text-light" type="search" name="q"
+                   placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-secondary" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+
+          
+        </form>
       </div>
     </div>
   </nav>
 </header>
-      <main id="site-content">
-        
+    <main id="site-content">
+      
 <div id="page-description">
   <h1 class="title"><i class="fas fa-puzzle-piece"></i> dionysus-example:help</h1>
   
@@ -100,8 +119,6 @@
 
 
 <div class="mavenplugin-goal">
-  <h2><i class="fas fa-bullseye"></i> dionysus-example:help</h2>
-
   
   <p class="goal-description">
     Display help information on dionysus-example-maven-plugin.<br>
@@ -179,7 +196,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
   
   
   <div class="parameter-detail">
-    <h4><a name="detail"><i class="fas fa-code"></i> detail</a></h4>
+    <a class="anchor" name="detail"></a>
+    <h4><i class="fas fa-code"></i> detail</h4>
 
     
     <p class="parameter-description">
@@ -210,7 +228,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
   
   
   <div class="parameter-detail">
-    <h4><a name="goal"><i class="fas fa-code"></i> goal</a></h4>
+    <a class="anchor" name="goal"></a>
+    <h4><i class="fas fa-code"></i> goal</h4>
 
     
     <p class="parameter-description">
@@ -238,7 +257,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
   
   
   <div class="parameter-detail">
-    <h4><a name="indentSize"><i class="fas fa-code"></i> indentSize</a></h4>
+    <a class="anchor" name="indentSize"></a>
+    <h4><i class="fas fa-code"></i> indentSize</h4>
 
     
     <p class="parameter-description">
@@ -269,7 +289,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
   
   
   <div class="parameter-detail">
-    <h4><a name="lineLength"><i class="fas fa-code"></i> lineLength</a></h4>
+    <a class="anchor" name="lineLength"></a>
+    <h4><i class="fas fa-code"></i> lineLength</h4>
 
     
     <p class="parameter-description">
@@ -303,8 +324,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
 
 
 
-      </main>
-      
+    </main>
+    
 <footer id="site-footer">
   <div class="container">
     <div class="row">
@@ -362,8 +383,8 @@ Call <code>mvn dionysus-example:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</cod
     </div>
   </div>
 </footer>
-      
+    
 <script src="/dionysus-example/theme.js"></script>
-    </wrapper>
-  </body>
+  </wrapper>
+</body>
 </html>

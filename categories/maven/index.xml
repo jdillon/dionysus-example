@@ -37,7 +37,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</guid>
-      <description>dionysus-example:help Display help information on dionysus-example-maven-plugin.
+      <description>Display help information on dionysus-example-maven-plugin.
 Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
     </item>
     
@@ -47,7 +47,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</guid>
-      <description>dionysus-example:helper Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.     anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo    skip Skip execution.</description>
+      <description>Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo     skip Skip execution.</description>
     </item>
     
   </channel>
