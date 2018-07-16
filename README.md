@@ -34,18 +34,7 @@ Prepare `gh-pages` branch:
 
 ### Development
 
-To develop locally some additional looks are required.
-
-* [Hugo](https://gohugo.io/getting-started/installing/)
-* [NodeJS](https://nodejs.org/en/download/); version 8+
-* [Yarn](https://yarnpkg.com/en/docs/install); ensure `yarn global bin` location is on `$PATH` 
-* [Brunch](https://brunch.io/); `yarn global add brunch`
-
-Once requirements are met, change to the `hugo` site directory:
-
-    cd src/site/hugo
-    yarn install
-    yarn start
+* [Development](src/site/hugo/README.md)
 
 ### Building
 
