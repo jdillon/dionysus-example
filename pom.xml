@@ -198,6 +198,10 @@
               <artifactId>dionysus-hugo-theme</artifactId>
               <version>1-SNAPSHOT</version>
             </theme>
+            <mavenGoals>
+              <goal>javadoc:aggregate</goal>
+              <goal>jxr:aggregate</goal>
+            </mavenGoals>
             <generators>
               <mavenLicenses/>
               <mavenModules/>
