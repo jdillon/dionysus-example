@@ -18,6 +18,3 @@ Start Hugo (and theme watcher):
 
     yarn start
 
-and then browse:
-
-* http://localhost:1313/dionysus-example/
