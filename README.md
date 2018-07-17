@@ -21,18 +21,9 @@ To keep things simple for production and development, build will write files int
  
 ### Setup
 
-**TODO** make a goal to automate this first-time setup
+Prepare `gh-pages` branch for deploying site content to:
 
-Prepare `gh-pages` branch:
-
-    git@github.com:jdillon/dionysus-example.git gh-pages
-    cd gh-pages
-    git co --orphan gh-pages
-    rm -rf * .gitignore
-    touch index.html
-    git add index.html
-    git ci -a -m "initial"
-    git push origin gh-pages
+    ./mvnw dionysus:prepare-branch
 
 ### Development
 
