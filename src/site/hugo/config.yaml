@@ -1,7 +1,7 @@
 ---
 baseURL: https://jdillon.github.io/dionysus-example/
 languageCode: en-us
-title: Hugo Dionysus Theme Example
+title: Dionysus Example
 theme: dionysus
 
 # Publish content to maven-standard-ish location for generated content
