@@ -23,7 +23,7 @@
     <version>13</version>
   </parent>
 
-  <groupId>org.sonatype.dionysus</groupId>
+  <groupId>org.sonatype.goodies.dionysus</groupId>
   <artifactId>dionysus-example</artifactId>
   <name>${project.groupId}:${project.artifactId}</name>
   <packaging>pom</packaging>
@@ -141,13 +141,13 @@
       <!-- INTERNAL -->
 
       <dependency>
-        <groupId>org.sonatype.dionysus</groupId>
+        <groupId>org.sonatype.goodies.dionysus</groupId>
         <artifactId>dionysus-example-common</artifactId>
         <version>1-SNAPSHOT</version>
       </dependency>
 
       <dependency>
-        <groupId>org.sonatype.dionysus</groupId>
+        <groupId>org.sonatype.goodies.dionysus</groupId>
         <artifactId>dionysus-example-maven-plugin</artifactId>
         <version>1-SNAPSHOT</version>
       </dependency>
@@ -189,12 +189,12 @@
         </plugin>
 
         <plugin>
-          <groupId>org.sonatype.dionysus</groupId>
+          <groupId>org.sonatype.goodies.dionysus</groupId>
           <artifactId>dionysus-maven-plugin</artifactId>
           <version>1-SNAPSHOT</version>
           <configuration>
             <theme>
-              <groupId>org.sonatype.dionysus</groupId>
+              <groupId>org.sonatype.goodies.dionysus</groupId>
               <artifactId>dionysus-hugo-theme</artifactId>
               <version>1-SNAPSHOT</version>
             </theme>
