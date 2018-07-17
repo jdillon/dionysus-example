@@ -14,6 +14,10 @@ import org.apache.maven.settings.Settings;
 /**
  * Helper mojo.
  *
+ * {@code example-code}
+ *
+ * {@link #skip}
+ *
  * @since ???
  */
 @Mojo(name = "helper", requiresDependencyResolution=ResolutionScope.COMPILE, defaultPhase=LifecyclePhase.GENERATE_RESOURCES)
@@ -38,7 +42,7 @@ public class HelperMojo
   private boolean skip = false;
 
   /**
-   * Another thingy.
+   * Another {@code thingy}.
    *
    * @since ???
    */
