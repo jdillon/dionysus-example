@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on Hugo Dionysus Theme Example</title>
+    <title>Welcome on Dionysus Example</title>
     <link>https://jdillon.github.io/dionysus-example/</link>
-    <description>Recent content in Welcome on Hugo Dionysus Theme Example</description>
+    <description>Recent content in Welcome on Dionysus Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -53,7 +53,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
-      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
+      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.goodies.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.goodies.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.goodies.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@ Def Lists  Cat Fluffy animal everyone likes Internet Vector of transmission for 
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</guid>
       <description>Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.goodies.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</guid>
-      <description>Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo     skip Skip execution.</description>
+      <description>Helper mojo. example-code skip Full name org.sonatype.goodies.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo     skip Skip execution.</description>
     </item>
     
   </channel>

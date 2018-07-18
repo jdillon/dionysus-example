@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maven Plugin on Hugo Dionysus Theme Example</title>
+    <title>Maven Plugin on Dionysus Example</title>
     <link>https://jdillon.github.io/dionysus-example/categories/maven-plugin/</link>
-    <description>Recent content in Maven Plugin on Hugo Dionysus Theme Example</description>
+    <description>Recent content in Maven Plugin on Dionysus Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -18,8 +18,8 @@
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/</guid>
       <description>Goals available for this plugin:
 2 goals   Goal Description      dionysus-example:help Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.    dionysus-example:helper Helper mojo.     Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
- &amp;lt;project&amp;gt; &amp;lt;build&amp;gt; &amp;lt;!-- plugin management --&amp;gt; &amp;lt;pluginMangement&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.sonatype.dionysus&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;dionysus-example-maven-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/pluginMangement&amp;gt; &amp;lt;!-- plugin execution --&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details.    dionysus-example:helper Helper mojo. example-code skip     Usage You should specify the version in your project&amp;rsquo;s plugin configuration:
+ &amp;lt;project&amp;gt; &amp;lt;build&amp;gt; &amp;lt;!-- plugin management --&amp;gt; &amp;lt;pluginMangement&amp;gt; &amp;lt;plugins&amp;gt; &amp;lt;plugin&amp;gt; &amp;lt;groupId&amp;gt;org.sonatype.goodies.dionysus&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;dionysus-example-maven-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;/plugin&amp;gt; &amp;lt;/plugins&amp;gt; &amp;lt;/pluginMangement&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
@@ -29,7 +29,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-help/</guid>
       <description>Display help information on dionysus-example-maven-plugin.
-Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
+Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to display parameter details. Full name org.sonatype.goodies.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:help Requires Project false Requires Online false Requires Direct Invocation false Thread-safe true  Parameters 4 parameters   Name Type Since Description      detail boolean  If true, display all settable properties for each goal.    goal java.lang.String  The name of the goal for which to show help.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Call mvn dionysus-example:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt; to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/dionysus-example/dionysus-example-helper/</guid>
-      <description>Helper mojo. Full name org.sonatype.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo     skip Skip execution.</description>
+      <description>Helper mojo. example-code skip Full name org.sonatype.goodies.dionysus:dionysus-example-maven-plugin:1-SNAPSHOT:helper Since ??? Phase generate-resources Requires Project true Requires Online false Requires Direct Invocation false Thread-safe false  Parameters 2 parameters   Name Type Since Description      anotherThingy java.lang.String ??? Another thingy.    skip boolean ??? Skip execution.      anotherThingy Another thingy. Type java.lang.String Since ??? Required true Default Value foo     skip Skip execution.</description>
     </item>
     
   </channel>

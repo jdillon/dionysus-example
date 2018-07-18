@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FAQ on Hugo Dionysus Theme Example</title>
+    <title>FAQ on Dionysus Example</title>
     <link>https://jdillon.github.io/dionysus-example/faq/</link>
-    <description>Recent content in FAQ on Hugo Dionysus Theme Example</description>
+    <description>Recent content in FAQ on Dionysus Example</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jdillon.github.io/dionysus-example/faq/maven-modules/</guid>
-      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
+      <description> Modules 3 modules   Group ID Artifact ID Version Packaging     org.sonatype.goodies.dionysus dionysus-example 1-SNAPSHOT pom   org.sonatype.goodies.dionysus dionysus-example-common 1-SNAPSHOT jar   org.sonatype.goodies.dionysus dionysus-example-maven-plugin 1-SNAPSHOT maven-plugin     </description>
     </item>
     
     <item>
