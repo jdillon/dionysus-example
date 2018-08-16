@@ -69,6 +69,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
 
     <apache-maven.version>3.5.2</apache-maven.version>
+    <dionysus.version>1.0.1-SNAPSHOT</dionysus.version>
   </properties>
 
   <modules>
@@ -191,12 +192,12 @@
         <plugin>
           <groupId>org.sonatype.goodies.dionysus</groupId>
           <artifactId>dionysus-maven-plugin</artifactId>
-          <version>1-SNAPSHOT</version>
+          <version>${dionysus.version}</version>
           <configuration>
             <theme>
               <groupId>org.sonatype.goodies.dionysus</groupId>
               <artifactId>dionysus-hugo-theme</artifactId>
-              <version>1-SNAPSHOT</version>
+              <version>${dionysus.version}</version>
             </theme>
             <mavenGoals>
               <goal>javadoc:aggregate</goal>
